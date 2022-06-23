@@ -56,7 +56,7 @@ const Footer = () => {
             <div class="copyright-info">
               <span>Copyright &copy; <script>
                   document.write(new Date().getFullYear())
-                </script>, Designed &amp; Developed by <a href="https://themefisher.com">Themefisher</a></span>
+                </script>, Designed &amp; Developed by <a href="https://themefisher.com">Galaxy Digital</a></span>
             </div>
           </div>
 

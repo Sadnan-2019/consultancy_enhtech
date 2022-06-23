@@ -14,7 +14,7 @@ const Projects = () => {
    
        <div class="row">
          <div class="col-12">
-           <div class="shuffle-btn-group">
+           {/* <div class="shuffle-btn-group">
              <label class="active" for="all">
                <input type="radio" name="shuffle-filter" id="all" value="all" checked="checked"/>Show All
              </label>
@@ -36,13 +36,13 @@ const Projects = () => {
              <label for="healthcare">
                <input type="radio" name="shuffle-filter" id="healthcare" value="healthcare"/>Healthcare
              </label>
-           </div> 
+           </div>  */}
    
    
            <div class="row shuffle-wrapper">
              <div class="col-1 shuffle-sizer"></div>
    
-             <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;government&quot;,&quot;healthcare&quot;]">
+             <div class="col-lg-4 col-md-6 p-2 shuffle-item" data-groups="[&quot;government&quot;,&quot;healthcare&quot;]">
                <div class="project-img-container">
                  <a class="gallery-popup" href="images/projects/project1.jpg" aria-label="project-img">
                    <img class="img-fluid" src="images/projects/project1.jpg" alt="project-img"/>
@@ -59,7 +59,7 @@ const Projects = () => {
                </div>
              </div>
    
-             <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;healthcare&quot;]">
+             <div class="col-lg-4 col-md-6 p-2  shuffle-item" data-groups="[&quot;healthcare&quot;]">
                <div class="project-img-container">
                  <a class="gallery-popup" href="images/projects/project2.jpg" aria-label="project-img">
                    <img class="img-fluid" src="images/projects/project2.jpg" alt="project-img"/>
@@ -76,7 +76,7 @@ const Projects = () => {
                </div>
              </div>
    
-             <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;infrastructure&quot;,&quot;commercial&quot;]">
+             <div class="col-lg-4 col-md-6 p-2  shuffle-item" data-groups="[&quot;infrastructure&quot;,&quot;commercial&quot;]">
                <div class="project-img-container">
                  <a class="gallery-popup" href="images/projects/project3.jpg" aria-label="project-img">
                    <img class="img-fluid" src="images/projects/project3.jpg" alt="project-img"/>
@@ -93,7 +93,7 @@ const Projects = () => {
                </div>
              </div>
    
-             <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;education&quot;,&quot;infrastructure&quot;]">
+             <div class="col-lg-4 col-md-6 p-2  shuffle-item" data-groups="[&quot;education&quot;,&quot;infrastructure&quot;]">
                <div class="project-img-container">
                  <a class="gallery-popup" href="images/projects/project4.jpg" aria-label="project-img">
                    <img class="img-fluid" src="images/projects/project4.jpg" alt="project-img"/>
@@ -110,7 +110,7 @@ const Projects = () => {
                </div>
              </div>
    
-             <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;infrastructure&quot;,&quot;education&quot;]">
+             <div class="col-lg-4 col-md-6 p-2  shuffle-item" data-groups="[&quot;infrastructure&quot;,&quot;education&quot;]">
                <div class="project-img-container">
                  <a class="gallery-popup" href="images/projects/project5.jpg" aria-label="project-img">
                    <img class="img-fluid" src="images/projects/project5.jpg" alt="project-img"/>
@@ -127,7 +127,7 @@ const Projects = () => {
                </div>
              </div>
    
-             <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;residential&quot;]">
+             <div class="col-lg-4 col-md-6 p-2  shuffle-item" data-groups="[&quot;residential&quot;]">
                <div class="project-img-container">
                  <a class="gallery-popup" href="images/projects/project6.jpg" aria-label="project-img">
                    <img class="img-fluid" src="images/projects/project6.jpg" alt="project-img"/>

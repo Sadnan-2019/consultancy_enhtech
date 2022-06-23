@@ -72,7 +72,7 @@ const Specialists = () => {
           </div>
 
           <div class="col-lg-4 text-center">
-            <img
+            <img  
               loading="lazy"
               class="img-fluid"
               src="images/services/service-center.jpg"

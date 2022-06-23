@@ -82,20 +82,20 @@ const Banner = () => {
                   success.
                 </p>
                 <div data-animation-in="slideInLeft">
-                  <a
+                  {/* <a
                     href="contact.html"
                     class="slider btn btn-primary"
                     aria-label="contact-with-us"
                   >
                     Get Free Quote
-                  </a>
-                  <a
+                  </a> */}
+                  {/* <a
                     href="about.html"
                     class="slider btn btn-primary border"
                     aria-label="learn-more-about-us"
                   >
                     Learn more
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
@@ -116,7 +116,7 @@ const Banner = () => {
           </div> 
           <div class="col-md-4 text-center text-md-right mt-3 mt-md-0">
               <div class="call-to-action-btn">
-                <a class="btn btn-dark" href="#">Request Quote</a>
+                <a class="btn btn-dark" href="#">Free Dial +88017120000000</a>
               </div>
           </div> 
         </div> 
