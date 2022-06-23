@@ -15,7 +15,7 @@ import AboutHeader from "./components/AboutHeader/AboutHeader";
 function App() {
   return (
     <div className=" ">
-      <Headerone></Headerone>
+      {/* <Headerone></Headerone> */}
       <Header></Header>
 
       
