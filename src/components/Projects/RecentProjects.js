@@ -75,9 +75,9 @@ const RecentProjects = () => {
             </div>
         
         
-            <div class="general-btn text-center mt-4">
+            {/* <div class="general-btn text-center mt-4">
                 <a class="btn btn-primary" href="news-left-sidebar.html">See All Posts</a>
-            </div>
+            </div> */}
         
           </div>
      

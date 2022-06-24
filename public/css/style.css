@@ -728,7 +728,7 @@ ul.navbar-nav > li > a {
 }
 ul.navbar-nav > li:hover > a,
 ul.navbar-nav > li.active > a {
-  color: #ffb600 !important;
+  color: #BC4B26!important;
 }
 
 /*-- Logo --*/
@@ -1052,6 +1052,7 @@ ul.navbar-nav > li > a {
   color: #333333;
   /* background: black; */
 }
+/* /////mobile screen  */
 @media (max-width: 991px) {
   .dropdown-menu li a {
     padding: 12px 0;
@@ -1059,21 +1060,30 @@ ul.navbar-nav > li > a {
   }
   .navbar  {
    
-    background-color: black;
+    background-color:black;
     width: 50%;
-    margin-right: 200px;
+
+    border: 1px solid black;
+    border-radius: 8px;
+    padding-left: 10px;
+    margin-left: -14.8px;
  
   }
   .navbar button{
    
     background-color: black;
+    
+    
+     
+    
   }
   .mylogo{
    
     /* background-color: rgb(214, 128, 128); */
     float: right;
-    left: 0;
+     
   }
+   
 }
 
 .dropdown-menu li:last-child > a {
@@ -1272,7 +1282,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 .slide-title-box {
   font-size: 16px;
   line-height: 39px;
-  background: #ffb600;
+  background: #BC4B26;
   color: #fff;
   display: inline-block;
   padding: 0 15px;
@@ -1671,23 +1681,23 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 }
 
 .facts-wrapper .ts-facts {
-  color: #fff;
+  color: rgb(240, 228, 228);
 }
 
 .ts-facts .ts-facts-icon i {
   font-size: 42px;
-  color: #ffb600;
+  color: #BC4B26;
 }
 
 .ts-facts .ts-facts-content .ts-facts-num {
-  color: #fff;
+  color: white;
   font-size: 44px;
   margin: 30px 0 20px;
 }
 
 .ts-facts .ts-facts-content .ts-facts-title {
   font-size: 16px;
-  color: #ffb600;
+  color: white;
   margin: 0;
 }
 
@@ -1697,7 +1707,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 .ts-service-box .ts-service-icon i {
   font-size: 36px;
   float: left;
-  color: #ffb600;
+  color: #BC4B26;
 }
 
 .ts-service-box .ts-service-box-content {
@@ -2119,11 +2129,11 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
   transition: 0.3s;
 }
 .accordion-group .card-header .btn[aria-expanded=true] {
-  color: #ffb600;
+  color: #BC4B26;
 }
 .accordion-group .card-header .btn[aria-expanded=true]::before {
   content: "\f106";
-  background-color: #ffb600;
+  background-color: #BC4B26;
 }
 .accordion-group.accordion-classic .card-header .btn:before {
   display: none;
@@ -2404,7 +2414,7 @@ img.testimonial-thumb {
   padding-left: 15px;
   text-transform: uppercase;
   color: #fff;
-  border-left: 3px solid #ffb600;
+  border-left: 3px solid #BC4B26;
 }
 
 /* Footer about us */
@@ -2472,8 +2482,8 @@ img.testimonial-thumb {
 
 /*-- Copyright --*/
 .copyright {
-  background: #ffb600;
-  color: #111;
+ 
+  color: white;
   padding: 25px 0;
   position: relative;
   z-index: 1;
@@ -2523,7 +2533,7 @@ img.testimonial-thumb {
   line-height: 36px;
   background: rgba(0, 0, 0, 0.9);
   border-radius: 3px;
-  color: #ffb600;
+  color: #BC4B26;
   font-weight: 700;
   font-size: 16px;
   padding: 0;
@@ -3385,4 +3395,8 @@ label {
 }
 /*# sourceMappingURL=style.css.map */
 
+ .ts-facts-img i{
+   color: #BC4B26;
+   
+ }
  

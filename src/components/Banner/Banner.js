@@ -19,10 +19,10 @@ const Banner = () => {
                   Construction Industry
                 </h3>
                 <p data-animation-in="slideInLeft" data-duration-in="1.2">
-                  <a href="services.html" class="slider btn btn-primary">
+                  <a href="/services" class="slider btn btn-primary" style={{backgroundColor:"#BC4B26"}}>
                     Our Services
                   </a>
-                  <a href="contact.html" class="slider btn btn-primary border">
+                  <a href="/contact" class="slider btn  btn-primary"style={{backgroundColor:"#BC4B26"}}>
                     Contact Now
                   </a>
                 </p>
@@ -50,7 +50,7 @@ const Banner = () => {
                   Your Choice is Simple
                 </h3>
                 <p data-animation-in="slideInRight">
-                  <a href="services.html" class="slider btn btn-primary border">
+                  <a href="/services" class="slider btn btn-primary "style={{backgroundColor:"#BC4B26"}}>
                     Our Services
                   </a>
                 </p>
@@ -107,7 +107,7 @@ const Banner = () => {
 
     <section class="call-to-action-box no-padding">
   <div class="container">
-    <div class="action-style-box">
+    <div class="action-style-box   rounded-3" style={{background:"#BC4B26"}}>
         <div class="row align-items-center">
           <div class="col-md-8 text-center text-md-left">
               <div class="call-to-action-text">

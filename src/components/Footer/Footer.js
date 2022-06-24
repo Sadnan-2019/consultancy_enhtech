@@ -2,8 +2,8 @@ import React from 'react';
 
 const Footer = () => {
      return (
-          <footer id="footer" class="footer bg-overlay">
-    <div class="footer-main">
+          <footer id="footer" class="footer bg-overlay" >
+    <div class="footer-main" >
       <div class="container">
         <div class="row justify-content-between">
           <div class="col-lg-4 col-md-6 footer-widget footer-about">
@@ -25,7 +25,7 @@ const Footer = () => {
           </div> 
 
           <div class="col-lg-4 col-md-6 footer-widget mt-5 mt-md-0">
-            <h3 class="widget-title">Working Hours</h3>
+            <h3 class="widget-title" >Working Hours</h3>
             <div class="working-hours">
               We work 7 days a week, every day excluding major holidays. Contact us if you have an emergency, with our
               Hotline and Contact form.
@@ -49,18 +49,18 @@ const Footer = () => {
       </div> 
     </div> 
 
-    <div class="copyright">
+    <div class="copyright" style={{background:"#BC4B26"}}>
       <div class="container">
         <div class="row align-items-center">
-          <div class="col-md-6">
-            <div class="copyright-info">
+          <div class="col-md-12">
+            <div class="copyright-info text-center">
               <span>Copyright &copy; <script>
                   document.write(new Date().getFullYear())
                 </script>, Designed &amp; Developed by <a href="https://galaxydigitalbd.com/">Galaxy Digital</a></span>
             </div>
           </div>
 
-          <div class="col-md-6">
+          {/* <div class="col-md-6">
             <div class="footer-menu text-center text-md-right">
               <ul class="list-unstyled">
                 <li><a href="about.html">About</a></li>
@@ -70,7 +70,7 @@ const Footer = () => {
                 <li><a href="pricing.html">Pricing</a></li>
               </ul>
             </div>
-          </div>
+          </div> */}
         </div> 
 
         <div id="back-to-top" data-spy="affix" data-offset-top="10" class="back-to-top position-fixed">

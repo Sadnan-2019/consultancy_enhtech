@@ -14,29 +14,7 @@ const Projects = () => {
    
        <div class="row">
          <div class="col-12">
-           {/* <div class="shuffle-btn-group">
-             <label class="active" for="all">
-               <input type="radio" name="shuffle-filter" id="all" value="all" checked="checked"/>Show All
-             </label>
-             <label for="commercial">
-               <input type="radio" name="shuffle-filter" id="commercial" value="commercial"/>Commercial
-             </label>
-             <label for="education">
-               <input type="radio" name="shuffle-filter" id="education" value="education"/>Education
-             </label>
-             <label for="government">
-               <input type="radio" name="shuffle-filter" id="government" value="government"/>Government
-             </label>
-             <label for="infrastructure">
-               <input type="radio" name="shuffle-filter" id="infrastructure" value="infrastructure"/>Infrastructure
-             </label>
-             <label for="residential">
-               <input type="radio" name="shuffle-filter" id="residential" value="residential"/>Residential
-             </label>
-             <label for="healthcare">
-               <input type="radio" name="shuffle-filter" id="healthcare" value="healthcare"/>Healthcare
-             </label>
-           </div>  */}
+        
    
    
            <div class="row shuffle-wrapper">
@@ -148,7 +126,7 @@ const Projects = () => {
    
          <div class="col-12">
            <div class="general-btn text-center">
-             <a class="btn btn-primary" href="projects.html">View All Projects</a>
+             <a class="btn btn-primary" href="/projects" style={{backgroudColor:"#BC4B26"}}>View All Projects</a>
            </div>
          </div>
    

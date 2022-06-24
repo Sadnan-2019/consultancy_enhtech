@@ -9,6 +9,7 @@ const Business = () => {
           <div class="col-md-3 col-sm-6 ts-facts">
               <div class="ts-facts-img">
                 <img loading="lazy" src="images/icon-image/fact1.png" alt="facts-img"/>
+                
               </div>
               <div class="ts-facts-content">
                 <h2 class="ts-facts-num"><span class="counterUp" data-count="1789">0</span></h2>
