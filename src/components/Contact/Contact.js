@@ -31,8 +31,8 @@ const Contact = () => {
 
     <div class="row text-center">
       <div class="col-12">
-        <h2 class="section-title">Reaching our Office</h2>
-        <h3 class="section-sub-title">Find Our Location</h3>
+        <h2 class="section-title" style={{color:"#BC4B26"}}>Reaching our Office</h2>
+        <h3 class="section-sub-title" style={{color:"#BC4B26"}}>Find Our Location</h3>
       </div>
     </div>
    
@@ -86,7 +86,7 @@ const Contact = () => {
 
     <div class="row">
       <div class="col-md-12">
-        <h3 class="column-title">We love to hear</h3>
+        <h3 class="column-title"style={{color:"#BC4B26"}}>We love to hear</h3>
      
         <form id="contact-form" action="#" method="post" role="form">
           <div class="error-container"></div>
@@ -117,7 +117,7 @@ const Contact = () => {
               required></textarea>
           </div>
           <div class="text-right"><br></br>
-            <button class="btn btn-primary solid blank" type="submit">Send Message</button>
+            <button class="btn btn-primary solid blank" type="submit" style={{background:"#BC4B26"}}>Send Message</button>
           </div>
         </form>
       </div>

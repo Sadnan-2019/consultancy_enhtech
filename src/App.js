@@ -11,6 +11,7 @@ import Services from "./components/Services/Services";
 import Contact from "./components/Contact/Contact";
 // import About from "./components/About/About";
 import AboutHeader from "./components/AboutHeader/AboutHeader";
+import FourZeroFour from "./components/FourZeroFour/FourZeroFour";
  
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
         <Route path="/projects" element={<ProjectHeader />} /> 
         <Route path="/contact" element={<Contact />} /> 
         <Route path="/about" element={<AboutHeader />} /> 
+        <Route path="/*" element={<FourZeroFour />} /> 
       </Routes>
       <Footer></Footer>
     </div>

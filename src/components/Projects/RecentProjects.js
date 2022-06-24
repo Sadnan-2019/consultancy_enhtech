@@ -6,8 +6,8 @@ const RecentProjects = () => {
           <div class="container">
             <div class="row text-center">
                 <div class="col-12">
-                  <h2 class="section-title">Work of Excellence</h2>
-                  <h3 class="section-sub-title">Recent Projects</h3>
+                  <h2 class="section-title" style={{color:"#BC4B26"}}>Work of Excellence</h2>
+                  <h3 class="section-sub-title" style={{color:"#BC4B26"}}>Recent Projects</h3>
                 </div>
             </div>
            
@@ -22,7 +22,7 @@ const RecentProjects = () => {
                       </div>
                       <div class="post-body">
                         <h4 class="post-title">
-                            <a href="news-single.html" class="d-inline-block">We Just Completes $17.6 million Medical Clinic in Mid-Missouri</a>
+                            <a href="/" class="d-inline-block">We Just Completes $17.6 million Medical Clinic in Mid-Missouri</a>
                         </h4>
                         <div class="latest-post-meta">
                             <span class="post-item-date">
@@ -42,7 +42,7 @@ const RecentProjects = () => {
                       </div>
                       <div class="post-body">
                         <h4 class="post-title">
-                            <a href="news-single.html" class="d-inline-block">Thandler Airport Water Reclamation Facility Expansion Project Named</a>
+                            <a href="/" class="d-inline-block">Thandler Airport Water Reclamation Facility Expansion Project Named</a>
                         </h4>
                         <div class="latest-post-meta">
                             <span class="post-item-date">
@@ -62,7 +62,7 @@ const RecentProjects = () => {
                       </div>
                       <div class="post-body">
                         <h4 class="post-title">
-                            <a href="news-single.html" class="d-inline-block">Silicon Bench and Cornike Begin Construction Solar Facilities</a>
+                            <a href="/" class="d-inline-block">Silicon Bench and Cornike Begin Construction Solar Facilities</a>
                         </h4>
                         <div class="latest-post-meta">
                             <span class="post-item-date">

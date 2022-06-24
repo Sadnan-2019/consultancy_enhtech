@@ -1,28 +1,29 @@
+ 
 import React, { useEffect, useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import Loading from "../Loading/Loading";
 import "./Header.css";
 
 const Header = () => {
-  const [ spinner, setSpinner ] = useState(false);
+//   const [ spinner, setSpinner ] = useState(false);
 
-  // It will be executed before rendering
+//   // It will be executed before rendering
 
-  useEffect(() => {
-    setTimeout(() => setSpinner(false), 2000)
-  }, [spinner]);
-  if(spinner){
-    return <Loading></Loading>
-  }
+//   useEffect(() => {
+//     setTimeout(() => setSpinner(false), 2000)
+//   }, [spinner]);
+//   if(spinner){
+//     return <Loading></Loading>
+//   }
  
 
-  const menuItem = document.querySelectorAll('.navbar-links a');
+//   const menuItem = document.querySelectorAll('.navbar-links a');
 
-menuItem.forEach(el => {
-  if (el.getAttribute('href') === (Location.path || '/')) {
-    el.classList.add("active")
-  }
-})
+// menuItem.forEach(el => {
+//   if (el.getAttribute('href') === (Location.path || '/')) {
+//     el.classList.add("active")
+//   }
+// })
  
   return (
     <header id="header" class="header-one navbar-fixed">
@@ -70,7 +71,8 @@ menuItem.forEach(el => {
                       <NavLink
                         to="/"
                         class="dropdown-toggle    "
-                        aria-current="page" onClick={()=>setSpinner(true)}
+                        aria-current="page" 
+                        // onClick={()=>setSpinner(true)}
                       >
                         Home
                       </NavLink>
@@ -83,7 +85,7 @@ menuItem.forEach(el => {
                         to="/projects"
                         class="dropdown-toggle"
                         aria-current="page"
-                        onClick={()=>setSpinner(true)}
+                        // onClick={()=>setSpinner(true)}
                       >
                         Projects{" "}
                       </NavLink>

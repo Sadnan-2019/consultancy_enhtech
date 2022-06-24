@@ -6,8 +6,8 @@ const Specialists = () => {
       <div class="container">
         <div class="row text-center">
           <div class="col-12">
-            <h2 class="section-title">We Are Specialists In</h2>
-            <h3 class="section-sub-title">What We Do</h3>
+            <h2 class="section-title" style={{color:"#BC4B26"}}>We Are Specialists In</h2>
+            <h3 class="section-sub-title" style={{color:"#BC4B26"}}>What We Do</h3>
           </div>
         </div>
 
@@ -23,7 +23,7 @@ const Specialists = () => {
               </div>
               <div class="ts-service-box-info">
                 <h3 class="service-box-title">
-                  <a href="#">Home Construction</a>
+                  <a href="#" style={{color:"#BC4B26"}}>Home Construction</a>
                 </h3>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipiscing elit Integer
@@ -42,7 +42,7 @@ const Specialists = () => {
               </div>
               <div class="ts-service-box-info">
                 <h3 class="service-box-title">
-                  <a href="#">Building Remodels</a>
+                  <a href="#" style={{color:"#BC4B26"}}>Building Remodels</a>
                 </h3>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipiscing elit Integer
@@ -61,7 +61,7 @@ const Specialists = () => {
               </div>
               <div class="ts-service-box-info">
                 <h3 class="service-box-title">
-                  <a href="#">Interior Design</a>
+                  <a href="#" style={{color:"#BC4B26"}}>Interior Design</a>
                 </h3>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipiscing elit Integer
@@ -91,7 +91,7 @@ const Specialists = () => {
               </div>
               <div class="ts-service-box-info">
                 <h3 class="service-box-title">
-                  <a href="#">Exterior Design</a>
+                  <a href="#" style={{color:"#BC4B26"}}>Exterior Design</a>
                 </h3>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipiscing elit Integer
@@ -110,7 +110,7 @@ const Specialists = () => {
               </div>
               <div class="ts-service-box-info">
                 <h3 class="service-box-title">
-                  <a href="#">Renovation</a>
+                  <a href="#" style={{color:"#BC4B26"}}>Renovation</a>
                 </h3>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipiscing elit Integer
@@ -129,7 +129,7 @@ const Specialists = () => {
               </div>
               <div class="ts-service-box-info">
                 <h3 class="service-box-title">
-                  <a href="#">Safety Management</a>
+                  <a href="#" style={{color:"#BC4B26"}}>Safety Management</a>
                 </h3>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipiscing elit Integer

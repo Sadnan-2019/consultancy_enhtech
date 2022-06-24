@@ -6,8 +6,8 @@ const Projects = () => {
      <div class="container">
        <div class="row text-center">
          <div class="col-lg-12">
-           <h2 class="section-title">Work of Excellence</h2>
-           <h3 class="section-sub-title">Our Projects</h3>
+           <h2 class="section-title" style={{color:"#BC4B26"}}>Work of Excellence</h2>
+           <h3 class="section-sub-title" style={{color:"#BC4B26"}}>Our Projects</h3>
          </div>
        </div>
       
@@ -126,7 +126,7 @@ const Projects = () => {
    
          <div class="col-12">
            <div class="general-btn text-center">
-             <a class="btn btn-primary" href="/projects" style={{backgroudColor:"#BC4B26"}}>View All Projects</a>
+             <a class="btn btn-primary" href="/projects" style={{background:"#BC4B26"}}>View All Projects</a>
            </div>
          </div>
    
