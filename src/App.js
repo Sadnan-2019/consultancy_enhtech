@@ -12,7 +12,7 @@ import Contact from "./components/Contact/Contact";
 // import About from "./components/About/About";
 import AboutHeader from "./components/AboutHeader/AboutHeader";
 import FourZeroFour from "./components/FourZeroFour/FourZeroFour";
- 
+import { ToastContainer } from 'react-toastify';
 
 function App() {
   return (
@@ -30,6 +30,8 @@ function App() {
         <Route path="/*" element={<FourZeroFour />} /> 
       </Routes>
       <Footer></Footer>
+      <ToastContainer></ToastContainer>
+      
     </div>
   );
 }

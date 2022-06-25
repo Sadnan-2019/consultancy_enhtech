@@ -1,6 +1,25 @@
 import React from 'react';
+import emailjs from '@emailjs/browser';
+import 'react-toastify/dist/ReactToastify.css'; 
+import { toast } from 'react-toastify';
+
 
 const Contact = () => {
+
+
+  
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_pskgdpw', 'template_kyal10i', e.target, '6RHmK6EVFEtu1sjQQ')
+      .then((result) => {
+          // console.log(result.text);
+          toast("SEND SUCCESSFULLY")
+      }, (error) => {
+          console.log(error.text);
+      });
+      e.target.reset();
+  }
      return (
           <div>
                <div id="banner-area" class="banner-area" style={{backgroundImage:`url("images/banner/banner1.jpg")`}}>
@@ -88,13 +107,13 @@ const Contact = () => {
       <div class="col-md-12 ">
         <h3 class="column-title mt-5"style={{color:"#BC4B26"}}>We love to hear</h3>
      
-        <form id="contact-form" action="#" method="post" role="form">
+        <form id="contact-form"  method="post"   onSubmit={sendEmail}>
           <div class="error-container"></div>
           <div class="row">
             <div class="col-md-4">
               <div class="form-group">
                 <label>Name</label>
-                <input class="form-control form-control-name" name="name" id="name" placeholder="" type="text" required />
+                <input class="form-control form-control-name"   name="name" id="name" placeholder="" type="text" required />
               </div>
             </div>
             <div class="col-md-4">
@@ -107,17 +126,18 @@ const Contact = () => {
             <div class="col-md-4">
               <div class="form-group">
                 <label>Subject</label>
-                <input class="form-control form-control-subject" name="subject" id="subject" placeholder="" required />
+                <input class="form-control form-control-subject" name="subject" id="subject" placeholder="" type="text" required />
               </div>
             </div>
           </div>
           <div class="form-group">
             <label>Message</label>
-            <textarea class="form-control form-control-message" name="message" id="message" placeholder="" rows="10"
+            <textarea class="form-control form-control-message" type="text" name="message" id="message" placeholder="" rows="10"
               required></textarea>
           </div>
           <div class="text-right"><br></br>
-            <button class="btn btn-primary solid blank" type="submit" style={{background:"#BC4B26"}}>Send Message</button>
+            {/* <button class="btn btn-primary solid blank" type="submit" style={{background:"#BC4B26"}}>Send Message</button> */}
+            <input class="btn btn-primary solid blank" type="submit" value="Send Message" style={{background:"#BC4B26"}}/>
           </div>
         </form>
       </div>
