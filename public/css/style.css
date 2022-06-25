@@ -352,18 +352,19 @@ a:focus {
 /* Input form */
 .form-control {
   box-shadow: none;
-  border: 1px solid #dadada;
+  border: 1px solid #BC4B26;
   padding: 5px 20px;
   height: 44px;
   background: none;
   color: #959595;
   font-size: 14px;
-  border-radius: 0;
+  border-radius: 3px;
+   
 }
 
 .form-control:focus {
   box-shadow: none;
-  border: 1px solid #ffb600;
+  border: 1px solid #BC4B26 ;
 }
 
 hr {
@@ -1424,6 +1425,19 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
   opacity: 1;
   color: #BC4B26;
 }
+
+/* //// my.testimonial-area  */
+.testimonial-slide .carousel-control{
+  background: #BC4B26;
+  color: #fff;
+  border: 1px #BC4B26;
+}
+.testimonial-slide .carousel-control {
+  /* background: #BC4B26;
+  color: #fff; */
+  margin-bottom: 20px;
+}
+/* //// .testimonial-area  */
 
 .slick-slide {
   outline: 0;
@@ -2490,7 +2504,7 @@ img.testimonial-thumb {
 /*-- Copyright --*/
 .copyright {
  
-  color: white;
+  color: #999;
   padding: 5px 0;
   position: relative;
   z-index: 1;

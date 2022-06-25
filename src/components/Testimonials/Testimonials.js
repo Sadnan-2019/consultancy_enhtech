@@ -8,9 +8,9 @@ const Testimonials = () => {
         <div class="col-lg-6">
           <h3 class="column-title">Testimonials</h3>
 
-          <div id="testimonial-slide" class="testimonial-slide">
+          <div id="testimonial-slide" class="testimonial-slide" data-bs-ride="testimonial-slide">
               <div class="item">
-                <div class="quote-item">
+                <div class="quote-item ">
                     <span class="quote-text">
                       Question ran over her cheek When she reached the first hills of the Italic Mountains, she had a last
                       view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the
@@ -29,7 +29,7 @@ const Testimonials = () => {
    
 
               <div class="item">
-                <div class="quote-item">
+                <div class="quote-item ">
                     <span class="quote-text">
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inci done idunt ut
                       labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitoa tion ullamco laboris
@@ -48,7 +48,7 @@ const Testimonials = () => {
             
 
               <div class="item">
-                <div class="quote-item">
+                <div class="quote-item ">
                     <span class="quote-text">
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inci done idunt ut
                       labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitoa tion ullamco laboris
@@ -67,7 +67,8 @@ const Testimonials = () => {
            
 
           </div>
-          
+  
+  
         </div> 
 
         <div class="col-lg-6 mt-5 mt-lg-0">

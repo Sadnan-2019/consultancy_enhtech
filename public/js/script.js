@@ -174,6 +174,24 @@ jQuery(function ($) {
 			});
 		}
 		pageSlider();
+    
+
+		// testimonial carousel
+		// function testimonialCarousel() {
+		// 	$('.testimonial-slide').slick({
+		// 		fade: true,
+		// 		dots: true,
+		// 		slidesToShow: 1,
+		// 		slidesToScroll: 1,
+		// 		autoplay: true,
+				 
+		// 		speed: 600,
+		// 		arrows: true,
+		// 		prevArrow: '<button type="button" class="carousel-control left" aria-label="carousel-control"><i class="fas fa-chevron-left"></i></button>',
+		// 		nextArrow: '<button type="button" class="carousel-control right" aria-label="carousel-control"><i class="fas fa-chevron-right"></i></button>'
+		// 	});
+		// }
+		// testimonialCarousel();
 
 
 		// Shuffle js filter and masonry
@@ -205,10 +223,15 @@ jQuery(function ($) {
 			$('.testimonial-slide').slick({
 				slidesToShow: 1,
 				slidesToScroll: 1,
+				
 				dots: true,
+				autoplay: true,
 				speed: 600,
-				arrows: false
+				arrows: true,
+				prevArrow: '<button type="button" class="carousel-control left" aria-label="carousel-control"><i class="fas fa-chevron-left"></i></button>',
+				nextArrow: '<button type="button" class="carousel-control right" aria-label="carousel-control"><i class="fas fa-chevron-right"></i></button>'
 			});
+			$('.testimonial-slide').slickAnimation();
 		}
 		testimonialCarousel();
 

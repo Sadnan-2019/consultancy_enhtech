@@ -25,9 +25,9 @@ const AboutHeader = () => {
   </div> 
 </div> 
 <section id="main-container" class="main-container">
-  <div class="container">
-    <div class="row">
-        <div class="col-lg-6">
+  <div class="container ">
+    <div class="row ">
+        <div class="col-lg-12  ">
           <h3 class="column-title" style={{color:"#BC4B26"}}>Who We Are</h3>
           <p>when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin.</p>
           <blockquote><p>Semporibus autem quibusdam et aut officiis debitis aut rerum est aut optio cumque nihil necessitatibus autemn ec tincidunt nunc posuere ut</p></blockquote>
@@ -35,7 +35,7 @@ const AboutHeader = () => {
 
         </div> 
 
-        <div class="col-lg-6 mt-5 mt-lg-0">
+        {/* <div class="col-lg-6 mt-5 mt-lg-0">
           
           <div id="page-slider" class="page-slider small-bg">
 
@@ -70,7 +70,7 @@ const AboutHeader = () => {
           </div>        
         
 
-        </div> 
+        </div>  */}
     </div> 
 
   </div> 

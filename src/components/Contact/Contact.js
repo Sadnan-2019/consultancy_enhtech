@@ -29,12 +29,12 @@ const Contact = () => {
 <section id="main-container" class="main-container">
   <div class="container">
 
-    <div class="row text-center">
+    {/* <div class="row text-center">
       <div class="col-12">
         <h2 class="section-title" style={{color:"#BC4B26"}}>Reaching our Office</h2>
         <h3 class="section-sub-title" style={{color:"#BC4B26"}}>Find Our Location</h3>
       </div>
-    </div>
+    </div> */}
    
 
     <div class="row">
@@ -76,17 +76,17 @@ const Contact = () => {
 
     </div>
 
-    <div class="gap-60"></div>
+    {/* <div class="gap-60"></div>
 
     <div class="google-map">
       <div id="map" class="map" data-latitude="40.712776" data-longitude="-74.005974" data-marker="images/marker.png" data-marker-name="Constra"></div>
-    </div>
+    </div> */}
 
-    <div class="gap-40"></div>
+    {/* <div class="gap-40"></div> */}
 
     <div class="row">
-      <div class="col-md-12">
-        <h3 class="column-title"style={{color:"#BC4B26"}}>We love to hear</h3>
+      <div class="col-md-12 ">
+        <h3 class="column-title mt-5"style={{color:"#BC4B26"}}>We love to hear</h3>
      
         <form id="contact-form" action="#" method="post" role="form">
           <div class="error-container"></div>
