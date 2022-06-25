@@ -1294,7 +1294,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
   color: #fff;
   display: inline-block;
   padding: 0 15px;
-  margin: 0 0 10px;
+  margin: 0 0 15px;
 }
 
 .slide-title {
@@ -1308,11 +1308,22 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
   .slide-title {
     font-size: 22px;
   }
+  .slide-title-box {
+    font-size: 16px;
+    line-height: 25px;
+    background: #BC4B26;
+    color: #fff;
+    display: inline-block;
+  
+    margin-top:50px;
+  }
+
 }
 @media (max-width: 575px) {
   .slide-title {
     font-size: 16px;
   }
+
 }
 
 .slide-sub-title {
