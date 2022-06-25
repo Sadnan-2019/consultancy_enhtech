@@ -1431,16 +1431,10 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
   background: #BC4B26;
   color: #fff;
   border: 1px #BC4B26;
-  float:right;
-  
-}
-.testimonial-slide .carousel-control {
-  /* background: #BC4B26;
-  color: #fff; */
-  
  
-   
+  
 }
+
 /* //// .testimonial-area  */
 
 .slick-slide {

@@ -226,9 +226,8 @@ jQuery(function ($) {
 				
 				dots: true,
 				autoplay: true,
-				speed: 600,
+				speed: 500,
 				arrows: true,
- 				nextArrow: '<button type="button" class="carousel-control right" aria-label="carousel-control"><i class="fas fa-chevron-right"></i></button>'
 			});
 			$('.testimonial-slide').slickAnimation();
 		}
