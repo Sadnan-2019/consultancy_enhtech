@@ -94,6 +94,7 @@ jQuery(function ($) {
 				$('.search-block').fadeOut(350);
 			});
 		}
+		
 		navSearch();
 
 		// navbarDropdown
@@ -101,16 +102,19 @@ jQuery(function ($) {
 			if ($(window).width() < 992) {
 				$('.site-navigation .dropdown-toggle').on('click', function () {
 					$(this).siblings('.dropdown-menu').animate({
-						height: 'toggle'
+						height: 'toggle',
+						display: 'none'
+
 					}, 300);
+					
 				});
 
 				var navbarHeight = $('.site-navigation').outerHeight();
 				$('.site-navigation .navbar-collapse').css('max-height', 'calc(100vh - ' + navbarHeight + 'px)');
 			}
 		}
-		navbarDropdown();
-
+		//
+navbarDropdown();
 
 		// back to top
 		function backToTop() {
@@ -288,6 +292,16 @@ jQuery(function ($) {
 			});
 		}
 		mediaPopup();
+
+		$(".base").bind("DOMSubtreeModified", function() {
+			bannerCarouselOne();
+			bannerCarouselTwo();
+			pageSlider();
+			projectShuffle();
+			testimonialCarousel();
+			teamCarousel();
+			mediaPopup();
+		});
 
 	});
 

@@ -687,8 +687,10 @@ ul.top-info li p.info-text {
 @media (max-width: 991px) {
   .navbar-collapse.collapse {
     overflow-y: auto;
+    /* background-color: red; */
   }
 }
+ 
 
 .header-one ul.navbar-nav > li {
   padding-left: 0;
@@ -696,7 +698,7 @@ ul.top-info li p.info-text {
 }
 @media (max-width: 991px) {
   .header-one ul.navbar-nav > li {
-    padding-right: 0;
+    padding-right: 100px;
   }
 }
 .header-one .logo-area {
@@ -1054,7 +1056,7 @@ ul.navbar-nav > li > a {
   color: #333333;
   /* background: black; */
 }
-/* /////mobile screen  */
+/* /////my mobile screen  */
 @media (max-width: 991px) {
   .dropdown-menu li a {
     padding: 12px 0;
@@ -1075,6 +1077,26 @@ ul.navbar-nav > li > a {
     /* background-color: rgb(214, 128, 128); */
     float: right;
   }
+  /* .dropdown a:focus{
+
+   display: none;
+
+
+
+  } */
+
+    .body:focus{
+
+    margin-bottom: 20px;
+    border: 10px solid blue;
+    /* top: -1200px; */
+    display: none;
+    
+     
+  }
+  
+  
+
 }
 
 .dropdown-menu li:last-child > a {
@@ -1091,6 +1113,7 @@ ul.navbar-nav > li > a {
     display: block;
     background: black;
   }
+
 }
 @media (min-width: 991px) {
   ul.nav li.dropdown ul.dropdown-menu li.dropdown-submenu .dropdown-menu {
@@ -3418,3 +3441,12 @@ label {
 .ts-facts-img i {
   color: #bc4b26;
 }
+
+.contact{
+
+  box-shadow: rgba(25,25,25,.04) 0 0 1px 0,rgba(0,0,0,.1) 0 3px 20px 0;
+}
+/* .dropdownMenu.show {
+  overflow:visible;
+  height:200px;
+} */

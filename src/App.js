@@ -5,7 +5,7 @@ import Header from "./components/Header/Header";
 
 import Footer from "./components/Footer/Footer";
 import Home from "./components/Home/Home";
-import { Routes, Route, } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import ProjectHeader from "./components/ProjectHeader/ProjectHeader";
 import Services from "./components/Services/Services";
 import Contact from "./components/Contact/Contact";
@@ -16,14 +16,14 @@ import { ToastContainer } from 'react-toastify';
 
 function App() {
   return (
-    <div className=" ">
+    <div className="base">
       {/* <Headerone></Headerone> */}
       <Header></Header>
 
       
      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/services" element={<Services/>} /> 
+        <Route path="/"  element={<Home />} />
+        <Route path="/services"  element={<Services/>} /> 
         <Route path="/projects" element={<ProjectHeader />} /> 
         <Route path="/contact" element={<Contact />} /> 
         <Route path="/about" element={<AboutHeader />} /> 
@@ -31,7 +31,7 @@ function App() {
       </Routes>
       <Footer></Footer>
       <ToastContainer></ToastContainer>
-      
+   
     </div>
   );
 }

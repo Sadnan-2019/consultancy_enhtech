@@ -2,6 +2,8 @@ import React from 'react';
 import About from '../About/About';
 import Banner from '../Banner/Banner';
 import Business from '../Business/Business';
+import New from '../New';
+import Popup from '../Popup/Popup';
 import Projects from '../Projects/Projects';
 import RecentProjects from '../Projects/RecentProjects';
 import Specialists from '../Specialists/Specialists';
@@ -17,6 +19,8 @@ const Home = () => {
       <Projects></Projects>
       <Testimonials></Testimonials>
       <RecentProjects></RecentProjects>  
+      {/* <New></New>
+      <Popup></Popup> */}
           </div>
      );
 };
