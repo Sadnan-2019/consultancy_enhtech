@@ -46,7 +46,7 @@ const Header = () => {
           <div class="row d-flex justify-content-evenly align-items-center ">
             <div className="col-lg-6  ">
               <div>
-                <a class="d-block" href="/">
+                <a class=" " href="/">
                   <img
                     className="mylogo"
                     loading="lazy"
@@ -74,75 +74,113 @@ const Header = () => {
                
 
                 <div id="navbar-collapse" class="collapse navbar-collapse ">
-                  <ul class="nav navbar-nav mr-auto Header p-2 dropdownMenu" id = "menu">
-                    <li class="nav-item dropdown  Header   ">
+                  <ul class="nav navbar-nav mr-auto Header p-2 ">
+
+                    
+            
+
+                    <li class="nav-item Header" 
+                      type="button"
+                      data-toggle="collapse"
+                      data-target=".navbar-collapse"
+                      aria-controls="navbar-collapse"
+                      // aria-expanded="false"
+                      aria-label="Toggle navigation">
                       {/* <a href="/" class="nav-link dropdown-toggle" data-toggle="">Home </a> */}
                       <NavLink
                         to="/"
-                        class="dropdown-toggle dropdown   urunler "
-                        aria-current="page"
-                        id="home"
-                  
-                      
+                        class="dropdown-toggle    "
+                        aria-current="page" 
                         // onClick={()=>setSpinner(true)}
                       >
                         Home
                       </NavLink>
                     </li>
-                    <li class="nav-item dropdown  Header   ">
+                    <li class="nav-item Header   "
+                      type="button"
+                      data-toggle="collapse"
+                      data-target=".navbar-collapse"
+                      aria-controls="navbar-collapse"
+                      // aria-expanded="false"
+                      aria-label="Toggle navigation">
                       {/* <a href="/" class="nav-link dropdown-toggle" data-toggle="">Home </a> */}
                       {/* <NavLink to="/" class="nav-link dropdown-toggle     " data-toggle="">Home </NavLink> */}
 
                       <NavLink
                         to="/projects"
-                        class="dropdown-toggle urunler"
+                        class="dropdown-toggle"
                         aria-current="page"
                         // onClick={()=>setSpinner(true)}
-                     
                       >
-                        Projects
+                        Projects{" "}
                       </NavLink>
                     </li>
 
-                    <li class="nav-item dropdown Header ">
+                    {/* <li class="nav-item dropdown   Header ">
+
+                          <NavLink to="/projects" class="nav-link dropdown-toggle" data-toggle="">Projects </NavLink>
+                         
+                      </li> */}
+
+                    <li class="nav-item Header "
+                    type="button"
+                      data-toggle="collapse"
+                      data-target=".navbar-collapse"
+                      aria-controls="navbar-collapse"
+                      // aria-expanded="false"
+                      aria-label="Toggle navigation">
                       {/* <a href="/services" class="nav-link dropdown-toggle" data-toggle="">Services </a> */}
                       <NavLink
                         to="/services"
-                        class="dropdown-toggle urunler"
+                        class="  dropdown-toggle"
+                         
                         aria-current="page"
-                    
                       >
-                        Services
+                        Services{" "}
                       </NavLink>
                     </li>
 
-                    <li class="nav-item dropdown Header ">
+                    <li class="nav-item Header "
+                      type="button"
+                      data-toggle="collapse"
+                      data-target=".navbar-collapse"
+                      aria-controls="navbar-collapse"
+                      // aria-expanded="false"
+                      aria-label="Toggle navigation">
                       {/* <a class="nav-link" href="/contact">Contact</a> */}
                       <NavLink
                         to="/contact"
-                        class="  dropdown-toggle urunler"
+                        class="  dropdown-toggle"
                         data-toggle=""
                         aria-current="page"
-                        // onClick={reloadPage} 
                       >
                         Contact{" "}
                       </NavLink>
                     </li>
-                    <li class="nav-item Header ">
+                    <li class="nav-item Header "
+                      type="button"
+                      data-toggle="collapse"
+                      data-target=".navbar-collapse"
+                      aria-controls="navbar-collapse"
+                      // aria-expanded="false"
+                      aria-label="Toggle navigation">
                       {/* <a class="nav-link" href="/about">About us</a> */}
                       <NavLink
                         to="/about"
-                        class="  dropdown-toggle urunler"
+                        class="  dropdown-toggle"
                         data-toggle=""
                         aria-current="page"
-          
                       >
                         About us{" "}
                       </NavLink>
                     </li>
+                  
+                  
+                  
                   </ul>
+
+
                 </div>
-         
               </nav>
             </div>
           </div>
