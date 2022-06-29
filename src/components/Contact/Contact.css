@@ -1,1 +1,25 @@
+.contact {
+  /* box-shadow: rgba(25,25,25,.04) 0 0 1px 0,rgba(0,0,0,.1) 0 3px 20px 0; */
+  /* background-image: ; */
+  background-image: url("https://i.ibb.co/JmG1MPF/bg2.jpg");
+  margin-top: 5%;
+  margin-bottom: 5%;
+  
+}
+
+.contactform {
+  /* box-shadow: rgba(25,25,25,.04) 0 0 1px 0,rgba(0,0,0,.1) 0 3px 20px 0; */
+  background: white;
+  width:35%;
+}
+
+@media (max-width: 991px) {
+     .contactform {
+          /* box-shadow: rgba(25,25,25,.04) 0 0 1px 0,rgba(0,0,0,.1) 0 3px 20px 0; */
+          background: white;
+          width:100%;
+        }
+
+}
+
  
