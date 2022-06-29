@@ -29,7 +29,7 @@ const Projects = () => {
                  <div class="project-item-info">
                    <div class="project-item-info-content">
                      <h3 class="project-item-title">
-                       <a href="projects-single.html">Capital Teltway Building</a>
+                       <a href="/">Capital Teltway Building</a>
                      </h3>
                      <p class="project-cat">Commercial, Interiors</p>
                    </div>
@@ -46,7 +46,7 @@ const Projects = () => {
                  <div class="project-item-info">
                    <div class="project-item-info-content">
                      <h3 class="project-item-title">
-                       <a href="projects-single.html">Ghum Touch Hospital</a>
+                       <a href="/">Ghum Touch Hospital</a>
                      </h3>
                      <p class="project-cat">Healthcare</p>
                    </div>
@@ -63,7 +63,7 @@ const Projects = () => {
                  <div class="project-item-info">
                    <div class="project-item-info-content">
                      <h3 class="project-item-title">
-                       <a href="projects-single.html">TNT East Facility</a>
+                       <a href="/">TNT East Facility</a>
                      </h3>
                      <p class="project-cat">Government</p>
                    </div>
@@ -80,7 +80,7 @@ const Projects = () => {
                  <div class="project-item-info">
                    <div class="project-item-info-content">
                      <h3 class="project-item-title">
-                       <a href="projects-single.html">Narriot Headquarters</a>
+                       <a href="/">Narriot Headquarters</a>
                      </h3>
                      <p class="project-cat">Infrastructure</p>
                    </div>
@@ -97,7 +97,7 @@ const Projects = () => {
                  <div class="project-item-info">
                    <div class="project-item-info-content">
                      <h3 class="project-item-title">
-                       <a href="projects-single.html">Kalas Metrorail</a>
+                       <a href="/">Kalas Metrorail</a>
                      </h3>
                      <p class="project-cat">Infrastructure</p>
                    </div>
@@ -114,7 +114,7 @@ const Projects = () => {
                  <div class="project-item-info">
                    <div class="project-item-info-content">
                      <h3 class="project-item-title">
-                       <a href="projects-single.html">Ancraft Avenue House</a>
+                       <a href="/">Ancraft Avenue House</a>
                      </h3>
                      <p class="project-cat">Residential</p>
                    </div>

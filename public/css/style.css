@@ -687,7 +687,7 @@ ul.top-info li p.info-text {
 @media (max-width: 991px) {
   .navbar-collapse.collapse {
     overflow-y: auto;
-    /* background-color: red; */
+   
   }
 }
  
