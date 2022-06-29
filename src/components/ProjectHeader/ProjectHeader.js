@@ -47,7 +47,7 @@ const ProjectHeader = () => {
                  <div class="project-item-info">
                    <div class="project-item-info-content">
                      <h3 class="project-item-title">
-                       <a href="/">Capital Teltway Building</a>
+                       <a  >Capital Teltway Building</a>
                      </h3>
                      <p class="project-cat">Commercial, Interiors</p>
                    </div>
@@ -64,7 +64,7 @@ const ProjectHeader = () => {
                  <div class="project-item-info">
                    <div class="project-item-info-content">
                      <h3 class="project-item-title">
-                       <a href="/">Ghum Touch Hospital</a>
+                       <a  >Ghum Touch Hospital</a>
                      </h3>
                      <p class="project-cat">Healthcare</p>
                    </div>
@@ -81,7 +81,7 @@ const ProjectHeader = () => {
                  <div class="project-item-info">
                    <div class="project-item-info-content">
                      <h3 class="project-item-title">
-                       <a href="/">TNT East Facility</a>
+                       <a >TNT East Facility</a>
                      </h3>
                      <p class="project-cat">Government</p>
                    </div>
@@ -98,7 +98,7 @@ const ProjectHeader = () => {
                  <div class="project-item-info">
                    <div class="project-item-info-content">
                      <h3 class="project-item-title">
-                       <a href="/">Narriot Headquarters</a>
+                       <a >Narriot Headquarters</a>
                      </h3>
                      <p class="project-cat">Infrastructure</p>
                    </div>
@@ -115,7 +115,7 @@ const ProjectHeader = () => {
                  <div class="project-item-info">
                    <div class="project-item-info-content">
                      <h3 class="project-item-title">
-                       <a href="/">Kalas Metrorail</a>
+                       <a >Kalas Metrorail</a>
                      </h3>
                      <p class="project-cat">Infrastructure</p>
                    </div>

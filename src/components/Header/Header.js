@@ -51,7 +51,7 @@ const Header = () => {
                     className="mylogo"
                     loading="lazy"
                     src="https://i.ibb.co/Zmsbx6F/rubel.png"
-                    style={{ width: "150px", height: "100px" }}
+                    style={{ width: "150px", height: "110px" }}
                     alt="Constra"
                   />
                 </a>
@@ -94,6 +94,23 @@ const Header = () => {
                         // onClick={()=>setSpinner(true)}
                       >
                         Home
+                      </NavLink>
+                    </li>
+                    <li class="nav-item Header "
+                      type="button"
+                      data-toggle="collapse"
+                      data-target=".navbar-collapse"
+                      aria-controls="navbar-collapse"
+                      // aria-expanded="false"
+                      aria-label="Toggle navigation">
+                      {/* <a class="nav-link" href="/about">About us</a> */}
+                      <NavLink
+                        to="/about"
+                        class="  dropdown-toggle"
+                        data-toggle=""
+                        aria-current="page"
+                      >
+                        About us{" "}
                       </NavLink>
                     </li>
                     <li class="nav-item Header   "
@@ -157,23 +174,7 @@ const Header = () => {
                         Contact{" "}
                       </NavLink>
                     </li>
-                    <li class="nav-item Header "
-                      type="button"
-                      data-toggle="collapse"
-                      data-target=".navbar-collapse"
-                      aria-controls="navbar-collapse"
-                      // aria-expanded="false"
-                      aria-label="Toggle navigation">
-                      {/* <a class="nav-link" href="/about">About us</a> */}
-                      <NavLink
-                        to="/about"
-                        class="  dropdown-toggle"
-                        data-toggle=""
-                        aria-current="page"
-                      >
-                        About us{" "}
-                      </NavLink>
-                    </li>
+                   
                   
                   
                   
