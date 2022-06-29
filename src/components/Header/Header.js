@@ -110,7 +110,7 @@ const Header = () => {
                         data-toggle=""
                         aria-current="page"
                       >
-                        About us{" "}
+                        About us
                       </NavLink>
                     </li>
                     <li class="nav-item Header   "
@@ -129,7 +129,7 @@ const Header = () => {
                         aria-current="page"
                         // onClick={()=>setSpinner(true)}
                       >
-                        Projects{" "}
+                        Project
                       </NavLink>
                     </li>
 
@@ -153,7 +153,7 @@ const Header = () => {
                          
                         aria-current="page"
                       >
-                        Services{" "}
+                        Services
                       </NavLink>
                     </li>
 
@@ -171,7 +171,7 @@ const Header = () => {
                         data-toggle=""
                         aria-current="page"
                       >
-                        Contact{" "}
+                        Contact
                       </NavLink>
                     </li>
                    
