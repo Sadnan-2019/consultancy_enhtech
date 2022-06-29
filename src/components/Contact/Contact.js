@@ -2,6 +2,7 @@ import React from 'react';
 import emailjs from '@emailjs/browser';
 import 'react-toastify/dist/ReactToastify.css'; 
 import { toast } from 'react-toastify';
+import "./Contact.css";
 
 
 const Contact = () => {
@@ -51,7 +52,7 @@ const Contact = () => {
    
 
     <div class="row">
-    <h3 class="column-title text-center mt-2"style={{color:"#BC4B26"}}>We love to hear</h3>
+    <h3 class="column-title text-center mt-2" style={{color:"#BC4B26"}}>We love to hear</h3>
       <div class="col-md-12 justify-content-center align-items-center d-flex">
         
      
