@@ -121,6 +121,54 @@ const Projects = () => {
                  </div>
                </div>
              </div>
+             <div class="col-lg-4 col-md-6 p-2  shuffle-item" data-groups="[&quot;residential&quot;]">
+               <div class="project-img-container">
+                 <a class="gallery-popup" href="images/projects/project7.jpg" aria-label="project-img">
+                   <img class="img-fluid" src="images/projects/project7.jpg" alt="project-img"/>
+                   <span class="gallery-icon"><i class="fa fa-plus"></i></span>
+                 </a>
+                 <div class="project-item-info">
+                   <div class="project-item-info-content">
+                     <h3 class="project-item-title">
+                       <a  >Ancraft Avenue House</a>
+                     </h3>
+                     <p class="project-cat">Residential</p>
+                   </div>
+                 </div>
+               </div>
+             </div>
+             <div class="col-lg-4 col-md-6 p-2  shuffle-item" data-groups="[&quot;residential&quot;]">
+               <div class="project-img-container">
+                 <a class="gallery-popup" href="images/projects/project8.jpg" aria-label="project-img">
+                   <img class="img-fluid" src="images/projects/project8.jpg" alt="project-img"/>
+                   <span class="gallery-icon"><i class="fa fa-plus"></i></span>
+                 </a>
+                 <div class="project-item-info">
+                   <div class="project-item-info-content">
+                     <h3 class="project-item-title">
+                       <a  >Ancraft Avenue House</a>
+                     </h3>
+                     <p class="project-cat">Residential</p>
+                   </div>
+                 </div>
+               </div>
+             </div>
+             <div class="col-lg-4 col-md-6 p-2  shuffle-item" data-groups="[&quot;residential&quot;]">
+               <div class="project-img-container">
+                 <a class="gallery-popup" href="images/projects/project9.jpg" aria-label="project-img">
+                   <img class="img-fluid" src="images/projects/project9.jpg" alt="project-img"/>
+                   <span class="gallery-icon"><i class="fa fa-plus"></i></span>
+                 </a>
+                 <div class="project-item-info">
+                   <div class="project-item-info-content">
+                     <h3 class="project-item-title">
+                       <a  >Ancraft Avenue House</a>
+                     </h3>
+                     <p class="project-cat">Residential</p>
+                   </div>
+                 </div>
+               </div>
+             </div>
            </div>
          </div>
    
