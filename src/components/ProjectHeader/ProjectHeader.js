@@ -132,7 +132,7 @@ const ProjectHeader = () => {
                  <div class="project-item-info">
                    <div class="project-item-info-content">
                      <h3 class="project-item-title">
-                       <a href="/">Ancraft Avenue House</a>
+                       <a>Ancraft Avenue House</a>
                      </h3>
                      <p class="project-cat">Residential</p>
                    </div>
