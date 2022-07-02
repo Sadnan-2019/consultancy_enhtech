@@ -1,5 +1,6 @@
 import React from "react";
-
+// import expert1 from "../../../images/expert/expert-1.jpg";
+import project1 from "../../../src/projects/project1.jpg";
 const Projects = () => {
   return (
      <section id="project-area" class="project-area solid-bg">
@@ -22,8 +23,8 @@ const Projects = () => {
    
              <div class="col-lg-4 col-md-6 p-2 shuffle-item" data-groups="[&quot;government&quot;,&quot;healthcare&quot;]">
                <div class="project-img-container">
-                 <a class="gallery-popup" href="images/projects/project1.jpg" aria-label="project-img">
-                   <img class="img-fluid" src="images/projects/project1.jpg" alt="project-img"/>
+                 <a class="gallery-popup" href={project1} aria-label="project-img">
+                   <img class="img-fluid" src={project1} alt="project-img"/>
                    <span class="gallery-icon"><i class="fa fa-plus"></i></span>
                  </a>
                  <div class="project-item-info">
@@ -39,8 +40,8 @@ const Projects = () => {
    
              <div class="col-lg-4 col-md-6 p-2  shuffle-item" data-groups="[&quot;healthcare&quot;]">
                <div class="project-img-container">
-                 <a class="gallery-popup" href="images/projects/project2.jpg" aria-label="project-img">
-                   <img class="img-fluid" src="images/projects/project2.jpg" alt="project-img"/>
+                 <a class="gallery-popup" href={project1}  aria-label="project-img">
+                   <img class="img-fluid" src={project1} alt="project-img"/>
                    <span class="gallery-icon"><i class="fa fa-plus"></i></span>
                  </a>
                  <div class="project-item-info">
@@ -56,8 +57,8 @@ const Projects = () => {
    
              <div class="col-lg-4 col-md-6 p-2  shuffle-item" data-groups="[&quot;infrastructure&quot;,&quot;commercial&quot;]">
                <div class="project-img-container">
-                 <a class="gallery-popup" href="images/projects/project3.jpg" aria-label="project-img">
-                   <img class="img-fluid" src="images/projects/project3.jpg" alt="project-img"/>
+                 <a class="gallery-popup" href={project1}  aria-label="project-img">
+                   <img class="img-fluid" src={project1}  alt="project-img"/>
                    <span class="gallery-icon"><i class="fa fa-plus"></i></span>
                  </a>
                  <div class="project-item-info">
@@ -71,10 +72,10 @@ const Projects = () => {
                </div>
              </div>
    
-             <div class="col-lg-4 col-md-6 p-2  shuffle-item" data-groups="[&quot;education&quot;,&quot;infrastructure&quot;]">
+             {/* <div class="col-lg-4 col-md-6 p-2  shuffle-item" data-groups="[&quot;education&quot;,&quot;infrastructure&quot;]">
                <div class="project-img-container">
-                 <a class="gallery-popup" href="images/projects/project4.jpg" aria-label="project-img">
-                   <img class="img-fluid" src="images/projects/project4.jpg" alt="project-img"/>
+                 <a class="gallery-popup" href="images/projects/project1.jpg" aria-label="project-img">
+                   <img class="img-fluid" src="images/projects/project1.jpg" alt="project-img"/>
                    <span class="gallery-icon"><i class="fa fa-plus"></i></span>
                  </a>
                  <div class="project-item-info">
@@ -86,12 +87,12 @@ const Projects = () => {
                    </div>
                  </div>
                </div>
-             </div>
+             </div> */}
    
-             <div class="col-lg-4 col-md-6 p-2  shuffle-item" data-groups="[&quot;infrastructure&quot;,&quot;education&quot;]">
+             {/* <div class="col-lg-4 col-md-6 p-2  shuffle-item" data-groups="[&quot;infrastructure&quot;,&quot;education&quot;]">
                <div class="project-img-container">
-                 <a class="gallery-popup" href="images/projects/project5.jpg" aria-label="project-img">
-                   <img class="img-fluid" src="images/projects/project5.jpg" alt="project-img"/>
+                 <a class="gallery-popup" href="images/projects/project1.jpg" aria-label="project-img">
+                   <img class="img-fluid" src="images/projects/project1.jpg" alt="project-img"/>
                    <span class="gallery-icon"><i class="fa fa-plus"></i></span>
                  </a>
                  <div class="project-item-info">
@@ -123,8 +124,8 @@ const Projects = () => {
              </div>
              <div class="col-lg-4 col-md-6 p-2  shuffle-item" data-groups="[&quot;residential&quot;]">
                <div class="project-img-container">
-                 <a class="gallery-popup" href="images/projects/project7.jpg" aria-label="project-img">
-                   <img class="img-fluid" src="images/projects/project7.jpg" alt="project-img"/>
+                 <a class="gallery-popup" href="images/projects/project1.jpg" aria-label="project-img">
+                   <img class="img-fluid" src="images/projects/project1.jpg" alt="project-img"/>
                    <span class="gallery-icon"><i class="fa fa-plus"></i></span>
                  </a>
                  <div class="project-item-info">
@@ -139,8 +140,8 @@ const Projects = () => {
              </div>
              <div class="col-lg-4 col-md-6 p-2  shuffle-item" data-groups="[&quot;residential&quot;]">
                <div class="project-img-container">
-                 <a class="gallery-popup" href="images/projects/project8.jpg" aria-label="project-img">
-                   <img class="img-fluid" src="images/projects/project8.jpg" alt="project-img"/>
+                 <a class="gallery-popup" href="images/projects/project1.jpg" aria-label="project-img">
+                   <img class="img-fluid" src="images/projects/project1.jpg" alt="project-img"/>
                    <span class="gallery-icon"><i class="fa fa-plus"></i></span>
                  </a>
                  <div class="project-item-info">
@@ -155,8 +156,8 @@ const Projects = () => {
              </div>
              <div class="col-lg-4 col-md-6 p-2  shuffle-item" data-groups="[&quot;residential&quot;]">
                <div class="project-img-container">
-                 <a class="gallery-popup" href="images/projects/project9.jpg" aria-label="project-img">
-                   <img class="img-fluid" src="images/projects/project9.jpg" alt="project-img"/>
+                 <a class="gallery-popup" href="images/projects/project1.jpg" aria-label="project-img">
+                   <img class="img-fluid" src="images/projects/project1.jpg" alt="project-img"/>
                    <span class="gallery-icon"><i class="fa fa-plus"></i></span>
                  </a>
                  <div class="project-item-info">
@@ -171,8 +172,8 @@ const Projects = () => {
              </div>
              <div class="col-lg-4 col-md-6 p-2  shuffle-item" data-groups="[&quot;residential&quot;]">
                <div class="project-img-container">
-                 <a class="gallery-popup" href="images/projects/project10.jpg" aria-label="project-img">
-                   <img class="img-fluid" src="images/projects/project10.jpg" alt="project-img"/>
+                 <a class="gallery-popup" href="images/projects/project1.jpg" aria-label="project-img">
+                   <img class="img-fluid" src="images/projects/project1.jpg" alt="project-img"/>
                    <span class="gallery-icon"><i class="fa fa-plus"></i></span>
                  </a>
                  <div class="project-item-info">
@@ -187,8 +188,8 @@ const Projects = () => {
              </div>
              <div class="col-lg-4 col-md-6 p-2  shuffle-item" data-groups="[&quot;residential&quot;]">
                <div class="project-img-container">
-                 <a class="gallery-popup" href="images/projects/project11.jpg" aria-label="project-img">
-                   <img class="img-fluid" src="images/projects/project11.jpg" alt="project-img"/>
+                 <a class="gallery-popup" href="images/projects/project1.jpg" aria-label="project-img">
+                   <img class="img-fluid" src="images/projects/project1.jpg" alt="project-img"/>
                    <span class="gallery-icon"><i class="fa fa-plus"></i></span>
                  </a>
                  <div class="project-item-info">
@@ -200,7 +201,7 @@ const Projects = () => {
                    </div>
                  </div>
                </div>
-             </div>
+             </div> */}
            </div>
          </div>
    
