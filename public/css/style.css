@@ -1078,10 +1078,11 @@ ul.navbar-nav > li > a {
   }
   .hotcontact{
     /* float: right; */
-   margin-left: 255px;
-    background: red;
+   /* margin-left: 255px; */
+    /* background: red; */
     font-size: 12px;
-    line-height: 15px;
+    line-height: 10px;
+    
   }
  
 
@@ -1119,10 +1120,11 @@ ul.navbar-nav > li > a {
   } */
   .hotcontact{
     /* float: right; */
-   margin-left: 255px;
-    background: red;
+   /* margin-left: 255px; */
+    /* background: red; */
     font-size: 12px;
-    line-height: 15px;
+    line-height: 10px;
+    
   }
   
 }
@@ -1348,7 +1350,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
     background: #bc4b26;
     color: #fff;
     display: inline-block;
-    margin-top: 50px;
+    margin-top: 70px;
   }
 }
 @media (max-width: 575px) {
@@ -1369,13 +1371,16 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 }
 @media (max-width: 991px) {
   .slide-sub-title {
-    font-size: 46px;
+    font-size: 12px;
+    line-height: 15px;
+     
   }
 }
 @media (max-width: 575px) {
   .slide-sub-title {
-    font-size: 30px;
-    line-height: 30px;
+    font-size: 12px;
+    line-height: 15px;
+    
   }
 }
 
