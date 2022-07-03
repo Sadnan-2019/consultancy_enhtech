@@ -4,38 +4,7 @@ import Loading from "../Loading/Loading";
 import "./Header.css";
 
 const Header = () => {
-  //   const [ spinner, setSpinner ] = useState(false);
-
-  //   // It will be executed before rendering
-
-  //   useEffect(() => {
-  //     setTimeout(() => setSpinner(false), 2000)
-  //   }, [spinner]);
-  //   if(spinner){
-  //     return <Loading></Loading>
-  //   }
-
-  //   const menuItem = document.querySelectorAll('.navbar-links a');
-
-  // menuItem.forEach(el => {
-  //   if (el.getAttribute('href') === (Location.path || '/')) {
-  //     el.classList.add("active")
-  //   }
-  // })
-
-  // const header = document.getElementById("header").value;
-  // const toggle = document.getElementById("toggle").value;
-  // const navbar = document.getElementById("navbar").value;
-  // document.onclick = function (e) {
-  //   if (
-  //     e.target.id !== header &&
-  //     e.target.id !== toggle &&
-  //     e.target.id !== navbar
-  //   ) {
-  //     toggle.classList.remove("active");
-  //     navbar.classList.remove("active");
-  //   }
-  // };
+ 
  
  
 
@@ -43,8 +12,8 @@ const Header = () => {
     <header id="header" class="header-one navbar-fixed">
       <div class="site-navigation">
         <div class="container  ">
-          <div class="row d-flex justify-content-evenly align-items-center ">
-            <div className="col-lg-6  ">
+          <div class="row d-flex justify-content-between align-items-center ">
+            <div className="col-lg-3  ">
               <div>
                 <a class=" " href="/">
                   <img
@@ -174,37 +143,35 @@ const Header = () => {
                         Contact
                       </NavLink>
                     </li>
+                
                    
                   
                   
                   
                   </ul>
-
+                 
 
                 </div>
+
               </nav>
+             
+
             </div>
+            <div class="col-md-3 hotcontact ">
+          <small style={{color:"white",fontWeight:"bolder"}}>Email : mdsadnanhosai94@gmail.com</small> <br></br>
+                    <small style={{color:"white ",fontWeight:"bolder"}}>Mobile : +8801718380718</small>
+             
+          </div>
+          
           </div>
 
-          {/* <div class="nav-search">
-            <span id="search">
-              <i class="fa fa-search"></i>
-            </span>
-          </div> */}
+         
 
-          {/* <div class="search-block" style={{ display: "none" }}>
-            <label for="search-field" class="w-100 mb-0">
-              <input
-                type="text"
-                class="form-control"
-                id="search-field"
-                placeholder="Type what you want and enter"
-              />
-            </label>
-            <span class="search-close">&times;</span>
-          </div> */}
+         
         </div>
+        
       </div>
+      
     </header>
   );
 };

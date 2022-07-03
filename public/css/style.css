@@ -1076,13 +1076,14 @@ ul.navbar-nav > li > a {
     /* background-color: rgb(214, 128, 128); */
     float: right;
   }
-  /* .dropdown a:focus{
-
-   display: none;
-
-
-
-  } */
+  .hotcontact{
+    /* float: right; */
+   margin-left: 255px;
+    background: red;
+    font-size: 12px;
+    line-height: 15px;
+  }
+ 
 
   
 }
@@ -1116,7 +1117,13 @@ ul.navbar-nav > li > a {
 
 
   } */
-
+  .hotcontact{
+    /* float: right; */
+   margin-left: 255px;
+    background: red;
+    font-size: 12px;
+    line-height: 15px;
+  }
   
 }
  
@@ -2639,11 +2646,13 @@ img.testimonial-thumb {
 @media (max-width: 767px) {
   .banner-title {
     font-size: 48px;
+    margin-top: 20px;
   }
 }
 @media (max-width: 575px) {
   .banner-title {
     font-size: 32px;
+    margin-top: 20px;  
   }
 }
 
