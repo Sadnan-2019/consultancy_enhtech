@@ -158,8 +158,8 @@ const Header = () => {
 
             </div>
             <div class="col-md-3 hotcontact " style={{lineHeight:"15px"}}>
-          <small style={{color:"white",fontWeight:"bolder"}}>Email : mdsadnanhosain94@gmail.com</small> <br></br>
-                    <small style={{color:"white ",fontWeight:"bolder"}}>Mobile : +8801718380718</small>
+          <small style={{color:"white",fontWeight:"bolder"}}>Email : rubelahmedrpi2@gmail.com</small> <br></br>
+                    <small style={{color:"white ",fontWeight:"bolder"}}>Mobile : +8801738145656</small>
              
           </div>
           
