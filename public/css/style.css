@@ -1350,7 +1350,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
     background: #bc4b26;
     color: #fff;
     display: inline-block;
-    margin-top: 70px;
+    margin-top: 80px;
   }
 }
 @media (max-width: 575px) {
@@ -2651,13 +2651,13 @@ img.testimonial-thumb {
 @media (max-width: 767px) {
   .banner-title {
     font-size: 48px;
-    margin-top: 20px;
+    margin-top: 40px;
   }
 }
 @media (max-width: 575px) {
   .banner-title {
     font-size: 32px;
-    margin-top: 20px;  
+    margin-top: 40px;  
   }
 }
 
