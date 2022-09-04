@@ -4,6 +4,14 @@
 # Live Link:https://www.engtechbd.com/
 # Static Website
 
+* Teamplate Mastering
+* Use Ract Framwork
+* React Router
+* html,css,jquery
+* Bootstrap
+
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
