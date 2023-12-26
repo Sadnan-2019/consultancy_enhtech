@@ -677,7 +677,7 @@ ul.top-info li p.info-text {
 /* Working on */
 .header-one,
 .header-one .site-navigation {
-  background: #000;
+  background: #111010;
 }
 
 .header-one .navbar-collapse {
@@ -1305,6 +1305,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
   color: #fff;
   background-position: 50% 50%;
   background-size: cover;
+  
 }
 @media (max-width: 991px) {
   .banner-carousel .banner-carousel-item {
@@ -1337,7 +1338,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
   font-size: 30px;
   line-height: 36px;
   font-weight: 300;
-  color: #fff;
+  color: #f5e510e0;
   margin: 20px 0 10px;
 }
 @media (max-width: 991px) {

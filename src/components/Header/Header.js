@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import Loading from "../Loading/Loading";
+import logo from   "../../assets/logo.jpg"
 import "./Header.css";
 
 const Header = () => {
@@ -19,7 +20,7 @@ const Header = () => {
                   <img
                     className="mylogo"
                     loading="lazy"
-                    src="https://i.ibb.co/Zmsbx6F/rubel.png"
+                    src={logo}
                     style={{ width: "150px", height: "110px" }}
                     alt="Constra"
                   />

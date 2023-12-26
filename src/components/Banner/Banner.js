@@ -1,12 +1,15 @@
 import React from "react";
-
+import banner1 from "../../assets/banner1.jpg"
 const Banner = () => {
   return (
     <div>
      <div class="banner-carousel banner-carousel-1 mb-0">
       <div
         class="banner-carousel-item"
-        style={{ backgroundImage: `url("images/slider-main/bg1.jpg")` }}
+        style=
+        // {{ backgroundImage: `url("images/slider-main/banner1.jpg")` }}
+        // {{background: `linear-gradient(000deg, #262F3B 0%, rgba(10, 0, 10, 0)80%), url(${banner1})`}}
+        {{ backgroundImage: `url("images/slider-main/banner1.jpg")` }}
       >
         <div class="slider-content">
           <div class="container h-100">
@@ -16,7 +19,7 @@ const Banner = () => {
                   17 Years of excellence in
                 </h2>
                 <h3 class="slide-sub-title" data-animation-in="slideInRight">
-                  Construction Industry
+                Royal Bengal Real Estate   Industry 
                 </h3>
                 <p data-animation-in="slideInLeft" data-duration-in="1.2">
                   <a href="/services" class="slider btn btn-primary" style={{backgroundColor:"#BC4B26"}}>
@@ -34,7 +37,7 @@ const Banner = () => {
 
       <div
         class="banner-carousel-item"
-        style={{ backgroundImage: `url("images/slider-main/bg2.jpg")` }}
+        style={{ backgroundImage: `url("images/slider-main/banner3.jpg")` }}
       >
         <div class="slider-content text-left">
           <div class="container h-100">
@@ -62,7 +65,7 @@ const Banner = () => {
 
       <div
         class="banner-carousel-item"
-        style={{ backgroundImage: `url("images/slider-main/bg3.jpg")` }}
+        style={{ backgroundImage: `url("images/slider-main/banner2.jpg")` }}
       >
         <div class="slider-content text-right">
           <div class="container h-100">
