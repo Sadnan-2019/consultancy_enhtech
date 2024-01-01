@@ -1,5 +1,5 @@
 import logo from "./logo.svg";
-import "./App.css";
+// import "./App.css";
 import Headerone from "./components/Headerone/Headerone";
 import Header from "./components/Header/Header";
 
@@ -13,10 +13,14 @@ import Contact from "./components/Contact/Contact";
 import AboutHeader from "./components/AboutHeader/AboutHeader";
 import FourZeroFour from "./components/FourZeroFour/FourZeroFour";
 import { ToastContainer } from 'react-toastify';
+import banner from "./assets/topbanner.jpg"
 
 function App() {
   return (
-    <div className="base">
+    <div>
+<img className="banner" src={banner} alt=""/>
+
+      <div className="base">
       {/* <Headerone></Headerone> */}
     
       <Header></Header>
@@ -33,6 +37,7 @@ function App() {
       <Footer></Footer>
       <ToastContainer></ToastContainer>
    
+    </div>
     </div>
   );
 }

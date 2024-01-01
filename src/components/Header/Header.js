@@ -12,7 +12,12 @@ const Header = () => {
 
   return (
    <div>
+{/* <div className="container">
+<div class="row   ">
+  <img className="banner" src={banner} alt=""/>
+</div>
 
+</div> */}
 
 
 <header id="header" class="header-one navbar-fixed">

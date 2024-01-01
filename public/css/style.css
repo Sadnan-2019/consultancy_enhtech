@@ -682,6 +682,7 @@ ul.top-info li p.info-text {
 
 .header-one .navbar-collapse {
   padding-left: 0;
+  
 }
 
 @media (max-width: 991px) {
@@ -1096,10 +1097,10 @@ ul.navbar-nav > li > a {
     /* background-color: blueviolet; */
   }
   .navbar {
-    background-color: black;
+    background: #252525;
     width: 55%;
 
-    border: 1px solid black;
+    border: 1px solid #252525;
     border-radius: 8px;
     padding-left: 10px;
     margin-left: -14.8px;
@@ -1613,7 +1614,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 
 .call-to-action-box .action-style-box {
   background: #ffb600;
-  padding: 30px;
+  padding: 20px;
 }
 
 .action-title {
