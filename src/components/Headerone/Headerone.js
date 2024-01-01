@@ -1,9 +1,11 @@
 import React from 'react';
+import Header from '../Header/Header';
 
 const Headerone = () => {
      return (
           <div>
             <div id="top-bar" class="top-bar">
+              {/* <Header></Header> */}
         <div class="container">
           <div class="row">
               <div class="col-lg-8 col-md-8">

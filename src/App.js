@@ -17,7 +17,8 @@ import { ToastContainer } from 'react-toastify';
 function App() {
   return (
     <div className="base">
-      <Headerone></Headerone>
+      {/* <Headerone></Headerone> */}
+    
       <Header></Header>
 
       

@@ -1,128 +1,181 @@
-import React from 'react';
+import React from "react";
 
 const About = () => {
-     return (
-          <section id="ts-features" class="ts-features">
-          <div class="container">
+  return (
+    <section id="ts-features" class="ts-features">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="ts-intro">
+              <h2 class="into-title">About Us</h2>
+              <h3 class="into-sub-title">We deliver unique  projects</h3>
+              <p>
+                The Award-Winning Real Estate Agency that stands as a beacon of
+                excellence among Dubai’s real estate companies. Our
+                comprehensive portfolio features a diverse range of properties
+                for sale and rent, crafted to meet your unique requirements. .
+              </p>
+            </div>
+
+            <div class="gap-20"></div>
+
             <div class="row">
-                <div class="col-lg-6">
-                  <div class="ts-intro">
-                      <h2 class="into-title">About Us</h2>
-                      <h3 class="into-sub-title">We deliver landmark projects</h3>
-                      <p>We are rethoric question ran over her cheek When she reached the first hills of the Italic Mountains,
-                        she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village
-                        and the subline of her own road, the Line Lane.</p>
-                  </div> 
-        
-                  <div class="gap-20"></div>
-        
-                  <div class="row">
-                      <div class="col-md-6">
-                        <div class="ts-service-box">
-                            <span class="ts-service-icon">
-                              <i class="fas fa-trophy"></i>
-                            </span>
-                            <div class="ts-service-box-content">
-                              <h3 class="service-box-title">We've Repution for Excellence</h3>
-                            </div>
-                        </div> 
-                      </div> 
-        
-                      <div class="col-md-6">
-                        <div class="ts-service-box">
-                            <span class="ts-service-icon">
-                              <i class="fas fa-sliders-h"></i>
-                            </span>
-                            <div class="ts-service-box-content">
-                              <h3 class="service-box-title">We Build Partnerships</h3>
-                            </div>
-                        </div> 
-                      </div> 
-                  </div> 
-        
-                  <div class="row">
-                      <div class="col-md-6">
-                        <div class="ts-service-box">
-                            <span class="ts-service-icon">
-                              <i class="fas fa-thumbs-up"></i>
-                            </span>
-                            <div class="ts-service-box-content">
-                              <h3 class="service-box-title">Guided by Commitment</h3>
-                            </div>
-                        </div> 
-                      </div> 
-        
-                      <div class="col-md-6">
-                        <div class="ts-service-box">
-                            <span class="ts-service-icon">
-                              <i class="fas fa-users"></i>
-                            </span>
-                            <div class="ts-service-box-content">
-                              <h3 class="service-box-title">A Team of Professionals</h3>
-                            </div>
-                        </div> 
-                      </div> 
-                  </div> 
-                </div> 
-        
-                <div class="col-lg-6 mt-4 mt-lg-0">
-                  <h3 class="into-sub-title">Our Values</h3>
-                  <p>Minim Austin 3 wolf moon scenester aesthetic, umami odio pariatur bitters. Pop-up occaecat taxidermy street art, tattooed beard literally.</p>
-        
-                  <div class="accordion accordion-group" id="our-values-accordion">
-                      <div class="card">
-                        <div class="card-header p-0 bg-transparent" id="headingOne">
-                            <h2 class="mb-0">
-                              <button class="btn btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"  >
-                                  Safety
-                              </button>
-                            </h2>
-                        </div>
-                      
-                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#our-values-accordion">
-                            <div class="card-body">
-                              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidata
-                            </div>
-                        </div>
-                      </div>
-                      <div class="card">
-                        <div class="card-header p-0 bg-transparent" id="headingTwo">
-                            <h2 class="mb-0">
-                              <button class="btn btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                  Customer Service
-                              </button>
-                            </h2>
-                        </div>
-                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#our-values-accordion">
-                            <div class="card-body">
-                              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidata
-                            </div>
-                        </div>
-                      </div>
-                      <div class="card">
-                        <div class="card-header p-0 bg-transparent" id="headingThree">
-                            <h2 class="mb-0">
-                              <button class="btn btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                  Integrity
-                              </button>
-                            </h2>
-                        </div>
-                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#our-values-accordion">
-                            <div class="card-body">
-                              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidata
-                            </div>
-                        </div>
-                      </div>
+              <div class="col-md-6">
+                <div class="ts-service-box">
+                  <span class="ts-service-icon">
+                    <i class="fas fa-trophy"></i>
+                  </span>
+                  <div class="ts-service-box-content">
+                    <h3 class="service-box-title">
+                      We've Repution for Excellence
+                    </h3>
                   </div>
-                   
-        
-                </div> 
-            </div> 
-          </div> 
-        </section> 
- 
-           
-     );
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="ts-service-box">
+                  <span class="ts-service-icon">
+                    <i class="fas fa-sliders-h"></i>
+                  </span>
+                  <div class="ts-service-box-content">
+                    <h3 class="service-box-title">We Build Partnerships</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-6">
+                <div class="ts-service-box">
+                  <span class="ts-service-icon">
+                    <i class="fas fa-thumbs-up"></i>
+                  </span>
+                  <div class="ts-service-box-content">
+                    <h3 class="service-box-title">Guided by Commitment</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="ts-service-box">
+                  <span class="ts-service-icon">
+                    <i class="fas fa-users"></i>
+                  </span>
+                  <div class="ts-service-box-content">
+                    <h3 class="service-box-title">A Team of Professionals</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4 mt-lg-0">
+            <h3 class="into-sub-title">Our Values</h3>
+            <p>
+              Our dedicated team comprises seasoned professionals, each with a
+              wealth of experience spanning over fifteen years in the
+              ever-evolving Dubai real estate landscape.
+            </p>
+
+            <div class="accordion accordion-group" id="our-values-accordion">
+              <div class="card">
+                <div class="card-header p-0 bg-transparent" id="headingOne">
+                  <h2 class="mb-0">
+                    <button
+                      class="btn btn-block text-left"
+                      type="button"
+                      data-toggle="collapse"
+                      data-target="#collapseOne"
+                      aria-expanded="true"
+                      aria-controls="collapseOne"
+                    >
+                        dedicated community
+                    </button>
+                  </h2>
+                </div>
+
+                <div
+                  id="collapseOne"
+                  class="collapse show"
+                  aria-labelledby="headingOne"
+                  data-parent="#our-values-accordion"
+                >
+                  <div class="card-body">
+                    Explore Dubai’s Latest Off-Plan Properties. An “off-plan”
+                    property is a promising real estate investment in Dubai, yet
+                    to be completed. We offer a wide selection across different
+                    locations and property types. Our dedicated community
+                    experts are here to guide you, ensuring you make a
+                    well-informed choice. Dive into the world of off-plan
+                    properties and ready to move property with us.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header p-0 bg-transparent" id="headingTwo">
+                  <h2 class="mb-0">
+                    <button
+                      class="btn btn-block text-left collapsed"
+                      type="button"
+                      data-toggle="collapse"
+                      data-target="#collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="collapseTwo"
+                    >
+                      leading property
+                    </button>
+                  </h2>
+                </div>
+                <div
+                  id="collapseTwo"
+                  class="collapse"
+                  aria-labelledby="headingTwo"
+                  data-parent="#our-values-accordion"
+                >
+                  <div class="card-body">
+                    A selection of properties from the UAE's leading property
+                    developers who provide excellent conditions for buying
+                    property in the best areas of Dubai. Our experts will help
+                    you find the perfect property to invest in!
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header p-0 bg-transparent" id="headingThree">
+                  <h2 class="mb-0">
+                    <button
+                      class="btn btn-block text-left collapsed"
+                      type="button"
+                      data-toggle="collapse"
+                      data-target="#collapseThree"
+                      aria-expanded="false"
+                      aria-controls="collapseThree"
+                    >
+                      Integrity
+                    </button>
+                  </h2>
+                </div>
+                <div
+                  id="collapseThree"
+                  class="collapse"
+                  aria-labelledby="headingThree"
+                  data-parent="#our-values-accordion"
+                >
+                  <div class="card-body">
+                    Join us to explore your dream property and unlock the
+                    exceptional service that defines Royal Bengal Real Estate
+                    LLC. Featured Properties every where in Dubai for Sale and
+                    Rent.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
 };
 
 export default About;
