@@ -1,5 +1,5 @@
 import React from "react";
-
+import video from "../../assets/rbrealestae.mp4"
 const About = () => {
   return (
     <section id="ts-features" class="ts-features">
@@ -20,53 +20,14 @@ const About = () => {
             <div class="gap-20"></div>
 
             <div class="row">
-              <div class="col-md-6">
-                <div class="ts-service-box">
-                  <span class="ts-service-icon">
-                    <i class="fas fa-trophy"></i>
-                  </span>
-                  <div class="ts-service-box-content">
-                    <h3 class="service-box-title">
-                      We've Repution for Excellence
-                    </h3>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-md-6">
-                <div class="ts-service-box">
-                  <span class="ts-service-icon">
-                    <i class="fas fa-sliders-h"></i>
-                  </span>
-                  <div class="ts-service-box-content">
-                    <h3 class="service-box-title">We Build Partnerships</h3>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col-md-6">
-                <div class="ts-service-box">
-                  <span class="ts-service-icon">
-                    <i class="fas fa-thumbs-up"></i>
-                  </span>
-                  <div class="ts-service-box-content">
-                    <h3 class="service-box-title">Guided by Commitment</h3>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-md-6">
-                <div class="ts-service-box">
-                  <span class="ts-service-icon">
-                    <i class="fas fa-users"></i>
-                  </span>
-                  <div class="ts-service-box-content">
-                    <h3 class="service-box-title">A Team of Professionals</h3>
-                  </div>
-                </div>
-              </div>
+         <div className=" ">
+         {/* <iframe src={video} title="Vimeo video" allowfullscreen></iframe> */}
+         <div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src={video} allowfullscreen></iframe>
+</div>
+         </div>
+            
+          
             </div>
           </div>
 
