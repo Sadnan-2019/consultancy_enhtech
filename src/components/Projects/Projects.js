@@ -1,8 +1,8 @@
 import React from "react";
 // import expert1 from "../../../images/expert/expert-1.jpg";
-import project1 from "../../../src/projects/project1.jpg";
-import project2 from "../../../src/projects/project2.jpg";
-import project3 from "../../../src/projects/project3.jpg";
+import project1 from "../../assets/project1.jpg";
+import project2 from "../../assets/project3.jpg";
+import project3 from "../../assets/project2.jpg";
 import project4 from "../../../src/projects/project4.JPG";
 import project5 from "../../../src/projects/project5.JPG";
 import project6 from "../../../src/projects/project6.JPG";
@@ -10,7 +10,7 @@ import project7 from "../../../src/projects/project7.JPG";
 import project8 from "../../../src/projects/project8.JPG";
 import project9 from "../../../src/projects/project9.JPG";
 import project10 from "../../../src/projects/project10.JPG";
-import project11 from "../../../src/projects/project11.JPG";
+import project11 from "../../assets/project4.jpg";
 const Projects = () => {
   return (
      <section id="project-area" class="project-area solid-bg">
