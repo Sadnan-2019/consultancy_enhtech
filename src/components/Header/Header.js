@@ -157,8 +157,7 @@ const Header = () => {
                       </li>
                     </ul>
                   </div>
-                  <img className="banner" src={banner} alt="" style={{width:"400px",height:"50px", margin:"10px"}}/>
-
+ 
                 </nav>
               </div>
 
