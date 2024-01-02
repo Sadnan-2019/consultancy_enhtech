@@ -23,7 +23,10 @@ const About = () => {
          <div className=" ">
          {/* <iframe src={video} title="Vimeo video" allowfullscreen></iframe> */}
          <div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src={video} allowfullscreen  ></iframe>
+  {/* <iframe class="embed-responsive-item" src={video} allowfullscreen  controls muted loop autoplay ></iframe> */}
+  <video src={video}   controls muted loop autoplay  >
+
+                </video>
 </div>
          </div>
             

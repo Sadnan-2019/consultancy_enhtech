@@ -13,12 +13,12 @@ import Contact from "./components/Contact/Contact";
 import AboutHeader from "./components/AboutHeader/AboutHeader";
 import FourZeroFour from "./components/FourZeroFour/FourZeroFour";
 import { ToastContainer } from 'react-toastify';
-import banner from "./assets/topbanner.jpg"
+ 
 
 function App() {
   return (
-    <div>
-<img className="banner" src={banner} alt=""/>
+    <div className="  ">
+ 
 
       <div className="base">
       {/* <Headerone></Headerone> */}
