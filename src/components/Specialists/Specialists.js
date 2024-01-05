@@ -1,13 +1,18 @@
 import React from "react";
-
+import "./Specialists.css"
+import landing from "../../assets/landlord.png"
 const Specialists = () => {
   return (
     <section id="ts-service-area" class="ts-service-area pb-0">
       <div class="container">
         <div class="row text-center">
           <div class="col-12">
-            <h2 class="section-title" style={{color:"#BC4B26"}}>We Are Specialists In</h2>
-            <h3 class="section-sub-title" style={{color:"#BC4B26"}}>What We Do</h3>
+            <h2 class="section-title" style={{ color: "#BC4B26" }}>
+              We Are Specialists In
+            </h2>
+            <h3 class="section-sub-title" style={{ color: "#BC4B26" }}>
+              What We Do
+            </h3>
           </div>
         </div>
 
@@ -16,6 +21,7 @@ const Specialists = () => {
             <div class="ts-service-box d-flex">
               <div class="ts-service-box-img">
                 <img
+                className="  "
                   loading="lazy"
                   src="images/icon-image/service-icon1.png"
                   alt="service-icon"
@@ -23,12 +29,19 @@ const Specialists = () => {
               </div>
               <div class="ts-service-box-info">
                 <h3 class="service-box-title">
-                  <a href="#" style={{color:"#BC4B26"}}>Home Construction</a>
+                  <a href="#" style={{ color: "#BC4B26" }}>
+                    Landlord Services
+                  </a>
                 </h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipiscing elit Integer
-                  adipiscing erat
+                <p className="text-justify word-spaced-text " >
+                  We represent our clients and execute all the demanding tenant
+                  management and property handover on the landlord's behalf.
+                  This is the most consolidated option for landlords to purchase
+                  while saving precious time and immediately enjoying the
+                  rental's profit, whilst being released from any management
+                  stress.
                 </p>
+              
               </div>
             </div>
 
@@ -42,7 +55,9 @@ const Specialists = () => {
               </div>
               <div class="ts-service-box-info">
                 <h3 class="service-box-title">
-                  <a href="#" style={{color:"#BC4B26"}}>Building Remodels</a>
+                  <a href="#" style={{ color: "#BC4B26" }}>
+                    Building Remodels
+                  </a>
                 </h3>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipiscing elit Integer
@@ -61,7 +76,9 @@ const Specialists = () => {
               </div>
               <div class="ts-service-box-info">
                 <h3 class="service-box-title">
-                  <a href="#" style={{color:"#BC4B26"}}>Interior Design</a>
+                  <a href="#" style={{ color: "#BC4B26" }}>
+                    Interior Design
+                  </a>
                 </h3>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipiscing elit Integer
@@ -72,7 +89,7 @@ const Specialists = () => {
           </div>
 
           <div class="col-lg-4 text-center">
-            <img  
+            <img
               loading="lazy"
               class="img-fluid"
               src="images/services/service-center.jpg"
@@ -91,7 +108,9 @@ const Specialists = () => {
               </div>
               <div class="ts-service-box-info">
                 <h3 class="service-box-title">
-                  <a href="#" style={{color:"#BC4B26"}}>Exterior Design</a>
+                  <a href="#" style={{ color: "#BC4B26" }}>
+                    Exterior Design
+                  </a>
                 </h3>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipiscing elit Integer
@@ -110,7 +129,9 @@ const Specialists = () => {
               </div>
               <div class="ts-service-box-info">
                 <h3 class="service-box-title">
-                  <a href="#" style={{color:"#BC4B26"}}>Renovation</a>
+                  <a href="#" style={{ color: "#BC4B26" }}>
+                    Renovation
+                  </a>
                 </h3>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipiscing elit Integer
@@ -129,7 +150,9 @@ const Specialists = () => {
               </div>
               <div class="ts-service-box-info">
                 <h3 class="service-box-title">
-                  <a href="#" style={{color:"#BC4B26"}}>Safety Management</a>
+                  <a href="#" style={{ color: "#BC4B26" }}>
+                    Safety Management
+                  </a>
                 </h3>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipiscing elit Integer
