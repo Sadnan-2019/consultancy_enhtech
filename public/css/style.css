@@ -306,8 +306,8 @@ a:focus {
 .section-sub-title {
   font-weight: 900;
   font-size: 36px;
-  line-height: 46px;
-  margin: 0 0 60px;
+  /* line-height: 46px; */
+  /* margin: 0 0 60px; */
   color: #212121;
 }
 @media (max-width: 575px) {

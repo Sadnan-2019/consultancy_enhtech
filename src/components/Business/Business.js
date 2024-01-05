@@ -13,10 +13,10 @@ const Business = () => {
           data-aos-mirror="true"
           data-aos-once="false"
           >
-  <div class="container">
+  <div class="container border border-white ">
     <div class="facts-wrapper">
-        <div class="row">
-        <h3 class="section-sub-title" style={{color:"#FFFFFF"}}>WHY CHOOSE US</h3>
+        <div class="row ">
+        <h3 class="section-sub-title  py-5  " style={{color:"#FFFFFF"}}>WHY CHOOSE US</h3>
 
           <div class="col-md-4 border border-white col-sm-6 ts-facts">
               <div class="ts-facts-img">
