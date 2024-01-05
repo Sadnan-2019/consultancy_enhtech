@@ -110,7 +110,15 @@ const Banner = () => {
      
     </div>
 
-    <section class="call-to-action-box no-padding">
+    <section class="call-to-action-box no-padding"
+     data-aos="fade-up"
+     data-aos-offset="200"
+     data-aos-delay="50"
+     data-aos-duration="1000"
+     data-aos-easing="ease-in-out"
+     data-aos-mirror="true"
+     data-aos-once="false"
+    >
   <div class="container">
     <div class="action-style-box   rounded-3" style={{background:"#BC4B26"}}>
         <div class="row align-items-center">

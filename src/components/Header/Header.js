@@ -15,7 +15,16 @@ const Header = () => {
 
 </div> */}
 
-      <header id="header" class="header-one navbar-fixed">
+      <header id="header" class="header-one navbar-fixed"
+       data-aos="fade-down"
+       data-aos-offset="200"
+       data-aos-delay="50"
+       data-aos-duration="1000"
+       data-aos-easing="linear"
+    
+      //  data-aos-mirror="true"
+      //  data-aos-once="false"
+      >
         <div class="site-navigation">
           <div class="container  ">
             <div class="row d-flex justify-content-between align-items-center ">
@@ -165,7 +174,7 @@ const Header = () => {
               <img className="banner" src={banner} alt="" style={{width:"300px",height:"50px", }}/>
 
                 <small style={{ color: "white", fontWeight: "bolder" }}>
-                  Email : royalbengalrealestate@gmail.com
+                  Email : inforoyalbengalrealestate.com
                 </small>{" "}
                 <br></br>
                 <small style={{ color: "white ", fontWeight: "bolder" }}>

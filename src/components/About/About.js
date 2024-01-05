@@ -1,13 +1,23 @@
 import React from "react";
 import video from "../../assets/rbrealestae.mp4"
+import "./About.css"
 const About = () => {
   return (
     <section id="ts-features" class="ts-features">
       <div class="container">
         <div class="row">
-          <div class="col-lg-6">
+          <div class="col-lg-6" 
+          data-aos="new-animation"
+    data-aos-offset="200"
+    data-aos-delay="50"
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
+    data-aos-once="false"
+    // data-aos-anchor-placement="top-center"
+    >
             <div class="ts-intro">
-              <h2 class="into-title">About Us</h2>
+              {/* <h2 class="into-title">About Us</h2> */}
               <h3 class="into-sub-title">We deliver unique  projects</h3>
               <p>
                 The Award-Winning Real Estate Agency that stands as a beacon of
@@ -34,7 +44,15 @@ const About = () => {
             </div>
           </div>
 
-          <div class="col-lg-6 mt-4 mt-lg-0">
+          <div class="col-lg-6 mt-4 mt-lg-0"
+           data-aos="fade-up"
+           data-aos-offset="200"
+           data-aos-delay="50"
+           data-aos-duration="1000"
+           data-aos-easing="ease-in-out"
+           data-aos-mirror="true"
+           data-aos-once="false"
+          >
             <h3 class="into-sub-title">Our Values</h3>
             <p>
               Our dedicated team comprises seasoned professionals, each with a
