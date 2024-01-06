@@ -1,6 +1,6 @@
 import React from "react";
-import "./Specialists.css"
-import landing from "../../assets/landlord.png"
+import "./Specialists.css";
+import landing from "../../assets/landlord.png";
 const Specialists = () => {
   return (
     <section id="ts-service-area" class="ts-service-area pb-0">
@@ -21,7 +21,7 @@ const Specialists = () => {
             <div class="ts-service-box d-flex">
               <div class="ts-service-box-img">
                 <img
-                className="  "
+                  className="  "
                   loading="lazy"
                   src="images/icon-image/service-icon1.png"
                   alt="service-icon"
@@ -33,7 +33,7 @@ const Specialists = () => {
                     Landlord Services
                   </a>
                 </h3>
-                <p className="text-justify word-spaced-text " >
+                <p className="text-justify word-spaced-text ">
                   We represent our clients and execute all the demanding tenant
                   management and property handover on the landlord's behalf.
                   This is the most consolidated option for landlords to purchase
@@ -41,7 +41,6 @@ const Specialists = () => {
                   rental's profit, whilst being released from any management
                   stress.
                 </p>
-              
               </div>
             </div>
 
@@ -60,8 +59,11 @@ const Specialists = () => {
                   </a>
                 </h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipiscing elit Integer
-                  adipiscing erat
+                  Building remodels are not just about upgrading physical
+                  spaces; they are a testament to our commitment to progress and
+                  innovation in the real estate industry.we understand the
+                  profound impact that a thoughtfully executed remodel can have
+                  on the way we work and serve our clients.
                 </p>
               </div>
             </div>
@@ -81,21 +83,27 @@ const Specialists = () => {
                   </a>
                 </h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipiscing elit Integer
-                  adipiscing erat
+                  we understand that homes are not just structures; they're
+                  reflections of the lives lived within. Our approach to
+                  interior design is rooted in understanding the unique
+                  lifestyles of our clients. From cosy family spaces to
+                  sophisticated urban dwellings, our designs cater to diverse
+                  preferences, ensuring that each space is a true representation
+                  of its inhabitants.
                 </p>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 text-center"
-          data-aos="flip-right"
-          data-aos-offset="2000"
-          data-aos-delay="50"
-          data-aos-duration="500"
-          data-aos-easing="ease-in-out"
-          data-aos-mirror="true"
-          data-aos-once="false"
+          <div
+            class="col-lg-4 text-center"
+            data-aos="flip-right"
+            data-aos-offset="2000"
+            data-aos-delay="50"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="false"
           >
             <img
               loading="lazy"
@@ -121,8 +129,11 @@ const Specialists = () => {
                   </a>
                 </h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipiscing elit Integer
-                  adipiscing erat
+                  Our commitment to excellence begins at the doorstep. Nestled
+                  in the heart of the city, our modern and inviting exterior
+                  design sets the stage for a seamless real estate experience.
+                  Let the exterior of our office be the first indication of the
+                  unparalleled service that awaits within.
                 </p>
               </div>
             </div>
@@ -142,8 +153,11 @@ const Specialists = () => {
                   </a>
                 </h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipiscing elit Integer
-                  adipiscing erat
+                  In the world of real estate, the power of transformation lies
+                  not only in finding new spaces but also in breathing new life
+                  into existing ones. Renovation, the art of revitalizing
+                  properties, holds the potential to elevate a space, increase
+                  its value, and create a lasting impact.
                 </p>
               </div>
             </div>
