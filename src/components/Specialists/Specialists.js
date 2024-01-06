@@ -97,10 +97,10 @@ const Specialists = () => {
 
           <div
             class="col-lg-4 text-center"
-            data-aos="flip-right"
-            data-aos-offset="2000"
-            data-aos-delay="50"
-            data-aos-duration="500"
+            data-aos="zoom-in"
+            data-aos-offset="500"
+            data-aos-delay="100"
+            data-aos-duration="100"
             data-aos-easing="ease-in-out"
             data-aos-mirror="true"
             data-aos-once="false"
