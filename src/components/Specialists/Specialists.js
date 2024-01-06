@@ -83,7 +83,7 @@ const Specialists = () => {
                   </a>
                 </h3>
                 <p>
-                  we understand that homes are not just structures; they're
+                  We understand that homes are not just structures; they're
                   reflections of the lives lived within. Our approach to
                   interior design is rooted in understanding the unique
                   lifestyles of our clients. From cosy family spaces to
@@ -177,8 +177,12 @@ const Specialists = () => {
                   </a>
                 </h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipiscing elit Integer
-                  adipiscing erat
+                  Safety begins with a thorough understanding of potential
+                  risks. Our safety management approach involves comprehensive
+                  property assessments, identifying and addressing potential
+                  hazards before they become issues. From structural integrity
+                  to fire safety, we leave no stone unturned in our commitment
+                  to providing secure environments
                 </p>
               </div>
             </div>
