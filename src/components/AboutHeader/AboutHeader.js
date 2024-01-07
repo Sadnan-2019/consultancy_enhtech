@@ -46,22 +46,31 @@ const AboutHeader = () => {
                 Who We Are
               </h3>
               <p>
-                when Gregor Samsa woke from troubled dreams, he found himself
-                transformed in his bed into a horrible vermin.
+                Our commitment to excellence shines through as we guide you
+                seamlessly through every facet of your real estate venture. Our
+                dedication is to stand by your side as the indispensable ally
+                your aspirations require, offering precise counsel and
+                safeguarding your future and interests.
               </p>
               <blockquote>
+                <h3 style={{ color: "#BC4B26" }}>Our Mission</h3>
                 <p>
-                  Semporibus autem quibusdam et aut officiis debitis aut rerum
-                  est aut optio cumque nihil necessitatibus autemn ec tincidunt
-                  nunc posuere ut
+                  We are committed to integrating cutting-edge methodologies in
+                  marketing, administration, leasing, and sales of residential,
+                  commercial, and retail properties, as we proactively enhance
+                  our portfolio with premier listings in the city and beyond. By
+                  continually broadening our offerings, networks, and resources
+                  to align with our client's requirements, we strive to provide
+                  unparalleled customer service
                 </p>
               </blockquote>
+              <h3 style={{ color: "#BC4B26" }}>Our Vision</h3>
               <p>
-                He lay on his armour-like back, and if he lifted. ultrices
-                ultrices sapien, nec tincidunt nunc posuere ut. Lorem ipsum
-                dolor sit amet, consectetur adipiscing elit. If you are going to
-                use a passage of Lorem Ipsum, you need to be sure there isn’t
-                anything embarrassing.
+
+                Our aspiration is to establish ourselves as the foremost,
+                proficient, and dependable property management and real estate
+                agency in the UAE, setting the standard for reliability and
+                professionalism in the industry.
               </p>
             </div>
           </div>

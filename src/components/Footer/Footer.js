@@ -53,7 +53,7 @@ const Footer = () => {
           
               <span>Copyright &copy; <script>
                   document.write(new Date().getFullYear())
-                </script>, Designed &amp; Developed by <a href="https://galaxydigitalbd.com/" className='galaxy'>Galaxy Digital</a></span>
+                </script>, Designed &amp; Developed by <a href="https://royalbengalrealestate.com/" className='galaxy'>royalbengalrealestate</a></span>
             </div>
           </div>
 
@@ -63,6 +63,11 @@ const Footer = () => {
         <div id="back-to-top" data-spy="affix" data-offset-top="10" class="back-to-top position-fixed">
           <button class="btn btn-primary" title="Back to Top">
             <i class="fa fa-angle-double-up"></i>
+          </button>
+        </div>
+        <div id="back-to-top" data-spy="affix" data-offset-top="10" class="back-to-top position-fixed">
+          <button class="btn btn-primary" title="Back to Top">
+            <i class="fa fa-angle-double-up">fghhhssheheheehe</i>
           </button>
         </div>
 
