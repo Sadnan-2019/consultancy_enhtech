@@ -1,5 +1,6 @@
 import React from "react";
 import Business from "../Business/Business";
+import realestate from "../../assets/realestate.jpg";
 
 const AboutHeader = () => {
   return (
@@ -34,7 +35,7 @@ const AboutHeader = () => {
             <div class="col-12 col-sm-12 col-md-6 col-lg-6  align-items-center justify-content-center d-flex  ">
               <div class="p-3  ">
                 <img
-                  src="images/news/news2.jpg"
+                  src={realestate}
                   alt=""
                   className="img-fluid rounded-2 border"
                 />

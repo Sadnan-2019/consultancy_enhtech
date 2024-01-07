@@ -1,16 +1,16 @@
 import React from "react";
 // import expert1 from "../../../images/expert/expert-1.jpg";
-import project1 from "../../assets/project1.jpg";
-import project2 from "../../assets/project3.jpg";
+import project1 from "../../assets/project8.jpg";
+import project2 from "../../assets/project6.jpg";
 import project3 from "../../assets/project2.jpg";
-import project4 from "../../../src/projects/project4.JPG";
-import project5 from "../../../src/projects/project5.JPG";
-import project6 from "../../../src/projects/project6.JPG";
-import project7 from "../../../src/projects/project7.JPG";
-import project8 from "../../../src/projects/project8.JPG";
-import project9 from "../../../src/projects/project9.JPG";
-import project10 from "../../../src/projects/project10.JPG";
-import project11 from "../../assets/project4.jpg";
+import project4 from "../../assets/project4.jpg";
+import project5 from "../../assets/project7.jpg";
+import project6 from "../../assets/project1.jpg";
+import project7 from "../../assets/project9.jpg";
+import project8 from "../../assets/project3.jpg";
+import project9 from "../../assets/project11.jpg";
+// import project10 from "../../assets/project10.jpg";
+import project11 from "../../assets/project5.jpg";
 const Projects = () => {
   return (
      <section id="project-area" class="project-area solid-bg">
@@ -195,7 +195,7 @@ const Projects = () => {
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 p-2 shuffle-item" data-groups="[&quot;government&quot;,&quot;healthcare&quot;]">
+          {/* <div class="col-lg-4 col-md-6 p-2 shuffle-item" data-groups="[&quot;government&quot;,&quot;healthcare&quot;]">
             <div class="project-img-container">
               <a class="gallery-popup" href={project10} aria-label="project-img">
                 <img class="img-fluid" src={project10} alt="project-img"/>
@@ -210,7 +210,7 @@ const Projects = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
 
          
           
