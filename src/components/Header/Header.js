@@ -28,7 +28,7 @@ const Header = () => {
         <div class="site-navigation">
           <div class="container  ">
             <div class="row d-flex justify-content-between align-items-center ">
-              <div className="col-lg-3  ">
+              {/* <div className="col-lg-3  ">
                 <div>
                   <a class=" " href="/">
                     <img
@@ -40,7 +40,7 @@ const Header = () => {
                     />
                   </a>
                 </div>
-              </div>
+              </div> */}
               <div class="col-lg-6   ">
                 <nav
                   class="navbar navbar-expand-lg navbar-dark p-0 sticky top-0 navbar-fixed mt-3 "
@@ -170,16 +170,22 @@ const Header = () => {
                 </nav>
               </div>
 
-              <div class="col-md-3 hotcontact " style={{ lineHeight: "18px" }}>
-              <img className="banner" src={banner} alt="" style={{width:"300px",height:"50px", }}/>
+              <div class="col-md-6 hotcontact " style={{ lineHeight: "18px" }}>
+              <div className="d-flex justify-content-between align-items-center ">
+              <div className="">
+              <img className="banner  my-1 " src={banner} alt="" style={{width:"300px",height:"80px", }}/>
+              </div>
 
-                <small style={{ color: "white", fontWeight: "bolder" }}>
-                  Email : inforoyalbengalrealestate.com
+               <div className="col-md-6 ">
+               <small style={{ color: "white", fontWeight: "bolder" }}>
+                  Email : info@royalbengalrealestate.com
                 </small>{" "}
-                <br></br>
+                 
                 <small style={{ color: "white ", fontWeight: "bolder" }}>
                   Mobile : +8801700000000
                 </small>
+               </div>
+              </div>
               </div>
             </div>
           </div>

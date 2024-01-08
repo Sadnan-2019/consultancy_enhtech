@@ -98,7 +98,7 @@ const Specialists = () => {
           <div
             class="col-lg-4 text-center"
             data-aos="zoom-in"
-            data-aos-offset="500"
+            data-aos-offset="5000"
             data-aos-delay="100"
             data-aos-duration="100"
             data-aos-easing="ease-in-out"

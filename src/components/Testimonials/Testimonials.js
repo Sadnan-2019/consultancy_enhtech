@@ -1,14 +1,26 @@
 import React from "react";
-
+import video from "../../assets/rbrealestae1.mp4";
 const Testimonials = () => {
   return (
     <section class="content">
       <div class="container">
+        <div class="row text-center">
+          <div class="col-12">
+            <h2 class="section-title" style={{ color: "#BC4B26" }}>
+              Work of Excellence
+            </h2>
+            <h3 class="section-sub-title" style={{ color: "#BC4B26" }}>
+              Recent Projects
+            </h3>
+          </div>
+        </div>
         <div class="row">
           <div class="col-lg-6">
-            <h3 class="column-title">Testimonials</h3>
+            <h3 class="column-title" style={{ color: "#BC4B26" }}>
+              New Launch JLT
+            </h3>
 
-            <div
+            {/* <div
               id="testimonial-slide"
               class="testimonial-slide"
               data-bs-ride="testimonial-slide"
@@ -86,13 +98,29 @@ const Testimonials = () => {
                   </div>
                 </div>
               </div>
+            </div> */}
+            <div class="row">
+              <div className=" ">
+                {/* <iframe src={video} title="Vimeo video" allowfullscreen></iframe> */}
+                <div class="embed-responsive embed-responsive-16by9">
+                  {/* <iframe class="embed-responsive-item" src={video} allowfullscreen  controls muted loop autoplay ></iframe> */}
+                  <video src={video} controls muted loop autoplay></video>
+                </div>
+              </div>
             </div>
           </div>
 
           <div class="col-lg-6 mt-5 mt-lg-0">
-            <h3 class="column-title">Happy Clients</h3>
-
-            <div class="row all-clients">
+            {/* <h3 class="column-title">Happy Clients</h3> */}
+            <h3 class="column-title">
+              <a href="#" style={{ color: "#BC4B26" }}>
+                The North Tower of Mercer House will feature an impressive 41
+                residential floors offering a total of *325 signature apartments
+                ranging from studios to contemporary 1, 2, 3, and 4-bedroom
+                penthouses.
+              </a>
+            </h3>
+            {/* <div class="row all-clients">
               <div class="col-sm-4 col-6">
                 <figure class="clients-logo">
                   <a href="#!">
@@ -170,7 +198,7 @@ const Testimonials = () => {
                   </a>
                 </figure>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
