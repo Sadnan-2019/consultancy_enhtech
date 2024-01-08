@@ -14,7 +14,7 @@ const Testimonials = () => {
             </h3>
           </div>
         </div>
-        <div class="row">
+        <div class="row d-flex justify-content-center align-items-center">
           <div class="col-lg-6">
             <h3 class="column-title" style={{ color: "white" }}>
               New Launch JLT

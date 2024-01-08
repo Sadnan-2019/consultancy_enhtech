@@ -173,7 +173,7 @@ const Header = () => {
               <div class="col-md-6 hotcontact " style={{ lineHeight: "18px" }}>
               <div className="d-flex justify-content-between align-items-center ">
               <div className="">
-              <img className="banner  my-1 " src={banner} alt="" style={{width:"300px",height:"80px", }}/>
+              <img className="banner rounded my-1 " src={banner} alt="" style={{width:"300px",height:"70px", }}/>
               </div>
 
                <div className="col-md-6 ">
