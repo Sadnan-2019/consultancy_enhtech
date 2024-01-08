@@ -33,7 +33,7 @@ const Specialists = () => {
                     Landlord Services
                   </a>
                 </h3>
-                <p className="text-justify word-spaced-text ">
+                <p className="text-justify  ">
                   We represent our clients and execute all the demanding tenant
                   management and property handover on the landlord's behalf.
                   This is the most consolidated option for landlords to purchase
@@ -97,13 +97,13 @@ const Specialists = () => {
 
           <div
             class="col-lg-4 text-center"
-            data-aos="zoom-in"
-            data-aos-offset="5000"
-            data-aos-delay="100"
-            data-aos-duration="100"
-            data-aos-easing="ease-in-out"
-            data-aos-mirror="true"
-            data-aos-once="false"
+            // data-aos="zoom-in"
+            // data-aos-offset="5000"
+            // data-aos-delay="100"
+            // data-aos-duration="200"
+            // data-aos-easing="ease-in-out"
+            // data-aos-mirror="true"
+            // data-aos-once="false"
           >
             <img
               loading="lazy"

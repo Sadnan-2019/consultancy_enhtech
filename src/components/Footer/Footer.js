@@ -10,7 +10,7 @@ const Footer = () => {
         <div class="row justify-content-between">
           <div class=" col-md-6 col-lg-4 footer-widget footer-about ">
             {/* <h3 class="widget-title">About Us</h3> */}
-            <img loading="lazy" width="150px" class="footer-logo" src={logo} alt="Constra"/>
+            {/* <img loading="lazy" width="150px" class="footer-logo" src={logo} alt="Constra"/> */}
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inci done idunt ut
               labore et dolore magna aliqua.</p>
             <div class="footer-social">
