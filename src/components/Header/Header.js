@@ -27,7 +27,7 @@ const Header = () => {
       >
         <div class="site-navigation">
           <div class="container  ">
-            <div class="row d-flex justify-content-between align-items-center ">
+            <div class="  flex-row sm:flex-column d-flex justify-content-between align-items-center ">
               {/* <div className="col-lg-3  ">
                 <div>
                   <a class=" " href="/">
