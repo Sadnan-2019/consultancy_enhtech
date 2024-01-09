@@ -27,13 +27,13 @@ const Header = () => {
       //  data-aos-once="false"
       // flex   flex-col md:flex-row
       >
-        <div class=" ">
+        {/* <div class=" ">
           <div class="container-fluid  ">
             <div className="">
             <div class="  row   flex-container d-flex justify-content-between align-items-center ">
               <div className="col-lg-2 item   ">
                 <div>
-                  <a class=" " href="/">
+                  <a class="d-block " href="/">
                     <img
                       className="mylogo rounded my-1"
                       loading="lazy"
@@ -69,15 +69,13 @@ const Header = () => {
                         data-toggle="collapse"
                         data-target=".navbar-collapse"
                         aria-controls="navbar-collapse"
-                        // aria-expanded="false"
-                        aria-label="Toggle navigation"
+                         aria-label="Toggle navigation"
                       >
-                        {/* <a href="/" class="nav-link dropdown-toggle" data-toggle="">Home </a> */}
-                        <NavLink
+                         <NavLink
                           to="/"
                           class="dropdown-toggle    "
                           aria-current="page"
-                          // onClick={()=>setSpinner(true)}
+                         
                         >
                           Home
                         </NavLink>
@@ -88,10 +86,10 @@ const Header = () => {
                         data-toggle="collapse"
                         data-target=".navbar-collapse"
                         aria-controls="navbar-collapse"
-                        // aria-expanded="false"
+                      
                         aria-label="Toggle navigation"
                       >
-                        {/* <a class="nav-link" href="/about">About us</a> */}
+                        
                         <NavLink
                           to="/about"
                           class="  dropdown-toggle"
@@ -107,27 +105,22 @@ const Header = () => {
                         data-toggle="collapse"
                         data-target=".navbar-collapse"
                         aria-controls="navbar-collapse"
-                        // aria-expanded="false"
+                     
                         aria-label="Toggle navigation"
                       >
-                        {/* <a href="/" class="nav-link dropdown-toggle" data-toggle="">Home </a> */}
-                        {/* <NavLink to="/" class="nav-link dropdown-toggle     " data-toggle="">Home </NavLink> */}
+                     
 
                         <NavLink
                           to="/projects"
                           class="dropdown-toggle"
                           aria-current="page"
-                          // onClick={()=>setSpinner(true)}
+                         
                         >
                           Project
                         </NavLink>
                       </li>
 
-                      {/* <li class="nav-item dropdown   Header ">
-
-                         <NavLink to="/projects" class="nav-link dropdown-toggle" data-toggle="">Projects </NavLink>
-                        
-                     </li> */}
+                    
 
                       <li
                         class="nav-item Header "
@@ -135,11 +128,9 @@ const Header = () => {
                         data-toggle="collapse"
                         data-target=".navbar-collapse"
                         aria-controls="navbar-collapse"
-                        // aria-expanded="false"
-                        aria-label="Toggle navigation"
+                         aria-label="Toggle navigation"
                       >
-                        {/* <a href="/services" class="nav-link dropdown-toggle" data-toggle="">Services </a> */}
-                        <NavLink
+                         <NavLink
                           to="/services"
                           class="  dropdown-toggle"
                           aria-current="page"
@@ -154,11 +145,10 @@ const Header = () => {
                         data-toggle="collapse"
                         data-target=".navbar-collapse"
                         aria-controls="navbar-collapse"
-                        // aria-expanded="false"
+                       
                         aria-label="Toggle navigation"
                       >
-                        {/* <a class="nav-link" href="/contact">Contact</a> */}
-                        <NavLink
+                         <NavLink
                           to="/contact"
                           class="  dropdown-toggle"
                           data-toggle=""
@@ -175,10 +165,7 @@ const Header = () => {
 
               <div class="col-md-3 item  hotcontact " style={{ lineHeight: "18px" }}>
                
-              {/* <div className="">
-              <img className="banner rounded my-1 " src={banner} alt="" style={{width:"300px",height:"70px", }}/>
-              </div> */}
-
+            
             
                <small style={{ color: "white", fontWeight: "bolder" }}>
                   Email : info@royalbengalrealestate.com
@@ -193,7 +180,76 @@ const Header = () => {
             </div>
             </div>
           </div>
+        </div> */}
+         <div class=" ">
+        <div class="container">
+          <div class="logo-area">
+              <div class="row align-items-center">
+                <div class="logo col-lg-4 text-center text-lg-left mb-3 mb-md-5 mb-lg-0">
+                    <a class="d-block my-1" href="#">
+                      <img loading="lazy rounded" src={banner} alt="Constra"/>
+                    </a>
+                </div> 
+      
+                <div class="col-lg-8 header-right">
+                <div class="site-navigation">
+        <div class="container">
+            <div class="row">
+              <div class="col-lg-8">
+                  <nav class="navbar navbar-expand-lg navbar-dark p-0">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    
+                    <div id="navbar-collapse" class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav mr-auto">
+                        <li class="nav-item"><a class="" href="/">Home</a></li>
+    
+                          <li class="nav-item"><a class="" href="/services">Services</a></li>
+                  
+                          <li class="nav-item"><a class=" " href="/projects">Projects</a></li>
+                          <li class="nav-item"><a class=" " href="/about">About Us</a></li>
+                  
+                          <li class="nav-item"><a class="" href="/contact">Contact</a></li>
+                  
+                         
+                  
+                         
+                  
+                          {/* <li class="nav-item"><a class="/services" href="/services">Contact</a></li> */}
+                        </ul>
+                    </div>
+                  </nav>
+              </div>
+              <div class=" col-lg-4  hotcontact " style={{ lineHeight: "18px" }}>
+               
+            
+            
+               <small style={{ color: "white", fontWeight: "bolder" }}>
+                  Email : info@royalbengalrealestate.com
+                </small>{" "}
+                 
+                <small style={{ color: "white ", fontWeight: "bolder" }}>
+                  Mobile : +8801700000000
+                </small>
+         
+          
+              </div>
+            
+            </div>
+            
+    
+             
         </div>
+        
+    
+      </div>  
+                </div> 
+              </div> 
+      
+          </div> 
+        </div> 
+      </div>
       </header>
     </div>
   );

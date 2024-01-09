@@ -733,6 +733,10 @@ ul.navbar-nav > li > a {
   .navbar-nav {
     margin-bottom: 15px;
   }
+  .logo img {
+    width:500px;
+    height: 80px;
+  }
 }
 ul.navbar-nav > li:hover > a,
 ul.navbar-nav > li.active > a {
@@ -741,8 +745,8 @@ ul.navbar-nav > li.active > a {
 
 /*-- Logo --*/
 .logo img {
-  width: auto;
-  height: 35px;
+  width: 300px;
+  height: 80px;
 }
 
 .header-two .logo img {
