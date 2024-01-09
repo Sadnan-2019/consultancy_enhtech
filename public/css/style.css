@@ -1063,10 +1063,13 @@ ul.navbar-nav > li > a {
     padding: 12px 0;
     font-size: 100px; 
   }
+  .new{
+    flex-direction: column;
+  }
   .navbar {
     background-color: black;
     width: 50%;
-
+    /* flex-direction: column; */
     border: 1px solid black;
     border-radius: 8px;
     padding-left: 10px;
@@ -1074,10 +1077,16 @@ ul.navbar-nav > li > a {
   }
   .navbar button {
     background-color: black;
+    /* float: right; */
   }
   .mylogo {
     /* background-color: rgb(214, 128, 128); */
+   /* justify-items: center;
+    */
     float: right;
+ 
+  
+    
   }
   .hotcontact{
     /* float: right; */
@@ -1085,22 +1094,29 @@ ul.navbar-nav > li > a {
     /* background: red; */
     font-size: 12px;
     line-height: 10px;
+    /* float: right; */
+    text-align:end;
     
   }
  
 
   
 }
+ 
 @media (max-width: 667px) {
+  
+  .container {
+    flex-direction: column;
+  }
  
   .header-one .navbar-collapse ul li a {
     padding: 12px 0;
-    font-size: 12px; 
+    font-size: 13px; 
     /* background-color: blueviolet; */
   }
   .navbar {
     background: #252525;
-    width: 55%;
+    width: 20%;
 
     border: 1px solid #252525;
     border-radius: 8px;
@@ -1110,23 +1126,32 @@ ul.navbar-nav > li > a {
   .navbar button {
     background-color: black;
   }
-  .mylogo {
-    /* background-color: rgb(214, 128, 128); */
-    float: right;
-  }
+   
   /* .dropdown a:focus{
 
    display: none;
 
-
+.mylogo
 
   } */
+
+  .mylogo {
+    /* background-color: rgb(214, 128, 128); */
+   /* justify-items: center;
+    */
+     
+  
+    
+  }
   .hotcontact{
     /* float: right; */
-   /* margin-left: 255px; */
+   /* margin-left: 35%; */
     /* background: red; */
-    font-size: 12px;
+    font-size: 14px;
     line-height: 10px;
+    float: right;
+    text-align: end;
+
     
   }
   
@@ -1170,12 +1195,12 @@ ul.navbar-nav > li > a {
 }
 
 /*-- Nav Search start --*/
-.site-navigation .container,
+/* .site-navigation .container,
 .search-area {
   position: relative;
-}
+} */
 
-.search-area {
+/* .search-area {
   min-height: 70px;
   padding-right: 0;
 }
@@ -1186,7 +1211,7 @@ ul.navbar-nav > li > a {
   top: 22px;
   right: 18px;
   color: #999;
-}
+} */
 @media (max-width: 991px) {
   .nav-search {
     top: 17px;

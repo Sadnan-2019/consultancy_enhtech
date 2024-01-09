@@ -13,6 +13,7 @@ import Contact from "./components/Contact/Contact";
 import AboutHeader from "./components/AboutHeader/AboutHeader";
 import FourZeroFour from "./components/FourZeroFour/FourZeroFour";
 import { ToastContainer } from 'react-toastify';
+import Navbar from "./components/Header/Navbar";
  
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
       {/* <Headerone></Headerone> */}
     
       <Header></Header>
+      
 
       
      <Routes>

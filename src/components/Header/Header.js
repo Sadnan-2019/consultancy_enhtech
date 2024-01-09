@@ -5,6 +5,7 @@ import logo from "../../assets/logo.jpg";
 import "./Header.css";
 import Popup from "../Popup/Popup";
 import banner from "../../assets/topbanner.jpg";
+
 const Header = () => {
   return (
     <div>
@@ -24,24 +25,26 @@ const Header = () => {
     
       //  data-aos-mirror="true"
       //  data-aos-once="false"
+      // flex   flex-col md:flex-row
       >
-        <div class="site-navigation">
-          <div class="container  ">
-            <div class="  flex-row sm:flex-column d-flex justify-content-between align-items-center ">
-              {/* <div className="col-lg-3  ">
+        <div class=" ">
+          <div class="container-fluid  ">
+            <div className="">
+            <div class="  row   flex-container d-flex justify-content-between align-items-center ">
+              <div className="col-lg-2 item   ">
                 <div>
                   <a class=" " href="/">
                     <img
-                      className="mylogo"
+                      className="mylogo rounded my-1"
                       loading="lazy"
-                      src={logo}
-                      style={{ width: "150px", height: "110px" }}
+                      src={banner}
+                      style={{ width: "300px", height: "80px" }}
                       alt="Constra"
                     />
                   </a>
                 </div>
-              </div> */}
-              <div class="col-lg-6   ">
+              </div>
+              <div class="col-lg-4 item  ">
                 <nav
                   class="navbar navbar-expand-lg navbar-dark p-0 sticky top-0 navbar-fixed mt-3 "
                   id="navbar"
@@ -170,13 +173,13 @@ const Header = () => {
                 </nav>
               </div>
 
-              <div class="col-md-6 hotcontact " style={{ lineHeight: "18px" }}>
-              <div className="d-flex justify-content-between align-items-center ">
-              <div className="">
+              <div class="col-md-3 item  hotcontact " style={{ lineHeight: "18px" }}>
+               
+              {/* <div className="">
               <img className="banner rounded my-1 " src={banner} alt="" style={{width:"300px",height:"70px", }}/>
-              </div>
+              </div> */}
 
-               <div className="col-md-6 ">
+            
                <small style={{ color: "white", fontWeight: "bolder" }}>
                   Email : info@royalbengalrealestate.com
                 </small>{" "}
@@ -184,9 +187,10 @@ const Header = () => {
                 <small style={{ color: "white ", fontWeight: "bolder" }}>
                   Mobile : +8801700000000
                 </small>
-               </div>
+         
+          
               </div>
-              </div>
+            </div>
             </div>
           </div>
         </div>
