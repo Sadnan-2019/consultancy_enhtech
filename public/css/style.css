@@ -754,9 +754,9 @@ ul.navbar-nav > li.active > a {
 }
 
 /* header right */
-.header-right {
+/* .header-right {
   float: right;
-}
+} */
 
 ul.top-info-box {
   list-style: none;
@@ -1109,6 +1109,9 @@ ul.navbar-nav > li > a {
  
 @media (max-width: 667px) {
   
+
+
+   
   .container {
     flex-direction: column;
   }
@@ -1120,7 +1123,7 @@ ul.navbar-nav > li > a {
   }
   .navbar {
     background: #252525;
-    width: 20%;
+    width: 50%;
 
     border: 1px solid #252525;
     border-radius: 8px;

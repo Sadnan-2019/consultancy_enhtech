@@ -5,6 +5,8 @@ import logo from "../../assets/logo.jpg";
 import "./Header.css";
 import Popup from "../Popup/Popup";
 import banner from "../../assets/topbanner.jpg";
+import email from "../../assets/email.png";
+import phone from "../../assets/telephone.png";
 
 const Header = () => {
   return (
@@ -181,21 +183,23 @@ const Header = () => {
             </div>
           </div>
         </div> */}
-         <div class=" ">
-        <div class="container">
+         <div class="  ">
+        <div class=" flex-container px-5 ">
           <div class="logo-area">
               <div class="row align-items-center">
-                <div class="logo col-lg-4 text-center text-lg-left mb-3 mb-md-5 mb-lg-0">
+                <div class="logo   col-lg-3 text-center text-lg-left mb-3 mb-md-5 mb-lg-0">
                     <a class="d-block my-1" href="#">
                       <img loading="lazy rounded" src={banner} alt="Constra"/>
                     </a>
                 </div> 
       
-                <div class="col-lg-8 header-right">
+                <div class="col-lg-9 header-right">
                 <div class="site-navigation">
         <div class="container">
-            <div class="row">
-              <div class="col-lg-8">
+            <div class="row  ">
+            
+             <div className="   d-flex align-items-center   ">
+             <div class="col-lg-8    ">
                   <nav class="navbar navbar-expand-lg navbar-dark p-0">
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -203,14 +207,105 @@ const Header = () => {
                     
                     <div id="navbar-collapse" class="collapse navbar-collapse">
                         <ul class="nav navbar-nav mr-auto">
-                        <li class="nav-item"><a class="" href="/">Home</a></li>
+                        {/* <li class="nav-item"><a class="" href="/">Home</a></li> */}
+                        
+                        <li
+                        class="nav-item Header "
+                        type="button"
+                        data-toggle="collapse"
+                        data-target=".navbar-collapse"
+                        aria-controls="navbar-collapse"
+                       
+                        aria-label="Toggle navigation"
+                      >
+                         <NavLink
+                          to="/"
+                          class="  dropdown-toggle"
+                          data-toggle=""
+                          aria-current="page"
+                        >
+                          Home
+                        </NavLink>
+                      </li>
+                        <li
+                        class="nav-item Header "
+                        type="button"
+                        data-toggle="collapse"
+                        data-target=".navbar-collapse"
+                        aria-controls="navbar-collapse"
+                       
+                        aria-label="Toggle navigation"
+                      >
+                         <NavLink
+                          to="/services"
+                          class="  dropdown-toggle"
+                          data-toggle=""
+                          aria-current="page"
+                        >
+                          Services
+                        </NavLink>
+                      </li>
+                        <li
+                        class="nav-item Header "
+                        type="button"
+                        data-toggle="collapse"
+                        data-target=".navbar-collapse"
+                        aria-controls="navbar-collapse"
+                       
+                        aria-label="Toggle navigation"
+                      >
+                         <NavLink
+                          to="/projects"
+                          class="  dropdown-toggle"
+                          data-toggle=""
+                          aria-current="page"
+                        >
+                          Projects
+                        </NavLink>
+                      </li>
+                        <li
+                        class="nav-item Header "
+                        type="button"
+                        data-toggle="collapse"
+                        data-target=".navbar-collapse"
+                        aria-controls="navbar-collapse"
+                       
+                        aria-label="Toggle navigation"
+                      >
+                         <NavLink
+                          to="/about"
+                          class="  dropdown-toggle"
+                          data-toggle=""
+                          aria-current="page"
+                        >
+                          About Us
+                        </NavLink>
+                      </li>
+                        <li
+                        class="nav-item Header "
+                        type="button"
+                        data-toggle="collapse"
+                        data-target=".navbar-collapse"
+                        aria-controls="navbar-collapse"
+                       
+                        aria-label="Toggle navigation"
+                      >
+                         <NavLink
+                          to="/contact"
+                          class="  dropdown-toggle"
+                          data-toggle=""
+                          aria-current="page"
+                        >
+                       Contact
+                        </NavLink>
+                      </li>
     
-                          <li class="nav-item"><a class="" href="/services">Services</a></li>
+                          {/* <li class="nav-item"><a class="" href="/services">Services</a></li> */}
                   
-                          <li class="nav-item"><a class=" " href="/projects">Projects</a></li>
-                          <li class="nav-item"><a class=" " href="/about">About Us</a></li>
+                          {/* <li class="nav-item"><a class=" " href="/projects">Projects</a></li> */}
+                          {/* <li class="nav-item"><a class=" " href="/about">About Us</a></li> */}
                   
-                          <li class="nav-item"><a class="" href="/contact">Contact</a></li>
+                          {/* <li class="nav-item"><a class="" href="/contact">Contact</a></li> */}
                   
                          
                   
@@ -221,20 +316,31 @@ const Header = () => {
                     </div>
                   </nav>
               </div>
-              <div class=" col-lg-4  hotcontact " style={{ lineHeight: "18px" }}>
+              <div class=" col-lg-4   hotcontact " style={{ lineHeight: "18px" }}>
                
+          <div className="d-flex align-items-center   p-1  ">
+          <img className="mr-2  " src={email} alt="" style={{width:"30px"}} />
             
+            <small style={{ color: "white", fontWeight: "bolder" }}>
+                 info@royalbengalrealestate.com
+             </small>{" "}
+          </div>
+          <div className="d-flex align-items-center  p-1  ">
+          <img className="  mr-2 " src={phone} alt="" style={{width:"30px"}} />
             
-               <small style={{ color: "white", fontWeight: "bolder" }}>
-                  Email : info@royalbengalrealestate.com
-                </small>{" "}
+            <small style={{ color: "white", fontWeight: "bolder" }}>
+            Mobile : +8801700000000
+             </small>{" "}
+          </div>
                  
-                <small style={{ color: "white ", fontWeight: "bolder" }}>
+                {/* <small style={{ color: "white ", fontWeight: "bolder" }}>
                   Mobile : +8801700000000
-                </small>
+                </small> */}
          
           
               </div>
+             </div>
+              
             
             </div>
             
