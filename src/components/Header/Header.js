@@ -184,7 +184,7 @@ const Header = () => {
           </div>
         </div> */}
          <div class="  ">
-        <div class=" flex-container px-5 ">
+        <div class=" container-fluid   ">
           <div class="logo-area">
               <div class="row align-items-center">
                 <div class="logo   col-lg-3 text-center text-lg-left mb-3 mb-md-5 mb-lg-0">
@@ -316,7 +316,7 @@ const Header = () => {
                     </div>
                   </nav>
               </div>
-              <div class=" col-lg-4   hotcontact " style={{ lineHeight: "18px" }}>
+              <div class=" col-lg-4    hotcontact " style={{ lineHeight: "18px" }}>
                
           <div className="d-flex align-items-center   p-1  ">
           <img className="mr-2  " src={email} alt="" style={{width:"30px"}} />
