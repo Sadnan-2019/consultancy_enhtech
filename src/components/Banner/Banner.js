@@ -1,6 +1,7 @@
 import React from "react";
 import banner1 from "../../assets/banner1.jpg"
 import Popup from "../Popup/Popup";
+import { Link } from "react-router-dom";
 const Banner = () => {
   return (
     <div>
@@ -24,12 +25,14 @@ const Banner = () => {
                 Welcome to Royal Bengal Real Estate LLC Properties in Dubai
                 </h3>
                 <p data-animation-in="slideInLeft" data-duration-in="1.2">
-                  <a href="/services" class="slider btn btn-primary" style={{backgroundColor:"#BC4B26"}}>
+                   
+                  <Link  to="/services" class="slider btn btn-primary "style={{backgroundColor:"#BC4B26"}}>
                     Our Services
-                  </a>
-                  <a href="/contact" class="slider btn  btn-primary"style={{backgroundColor:"#BC4B26"}}>
-                    Contact Now
-                  </a>
+                  </Link>
+                   
+                  <Link  to="/contact" class="slider btn btn-primary "style={{backgroundColor:"#BC4B26"}}>
+                  Contact Now
+                  </Link>
                 </p>
               </div>
             </div>
@@ -55,9 +58,9 @@ const Banner = () => {
                   Your Choice is Simple
                 </h3>
                 <p data-animation-in="slideInRight">
-                  <a href="/services" class="slider btn btn-primary "style={{backgroundColor:"#BC4B26"}}>
+                  <Link  to="/services" class="slider btn btn-primary "style={{backgroundColor:"#BC4B26"}}>
                     Our Services
-                  </a>
+                  </Link>
                 </p>
               </div>
             </div>

@@ -11,6 +11,7 @@ import project8 from "../../assets/project3.jpg";
 import project9 from "../../assets/project11.jpg";
 // import project10 from "../../assets/project10.jpg";
 import project11 from "../../assets/project5.jpg";
+import { Link } from "react-router-dom";
 const Projects = () => {
   return (
      <section id="project-area" class="project-area solid-bg">
@@ -221,7 +222,10 @@ const Projects = () => {
    
          <div class="col-12">
            <div class="general-btn text-center">
-             <a class="btn btn-primary" href="/projects" style={{background:"#BC4B26"}}>View All Projects</a>
+             {/* <a class="btn btn-primary" href="/projects" style={{background:"#BC4B26"}}>View All Projects</a> */}
+             <Link  to="/projects" class=" btn btn-primary "style={{backgroundColor:"#BC4B26"}}>
+             View All Projects
+                  </Link>
            </div>
          </div>
    
