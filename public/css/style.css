@@ -1102,7 +1102,9 @@ ul.navbar-nav > li > a {
     text-align:end;
     
   }
- 
+  .action-style-box {
+    margin-top: 80px;
+  }
 
   
 }
@@ -1115,7 +1117,9 @@ ul.navbar-nav > li > a {
   .container {
     flex-direction: column;
   }
- 
+  .call-to-action-box {
+    margin-top: 100px;
+  }
   .header-one .navbar-collapse ul li a {
     padding: 12px 0;
     font-size: 13px; 
