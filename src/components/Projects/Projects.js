@@ -9,8 +9,14 @@ import project6 from "../../assets/project1.jpg";
 import project7 from "../../assets/project9.jpg";
 import project8 from "../../assets/project3.jpg";
 import project9 from "../../assets/project11.jpg";
+import project10 from "../../assets/project12.jpg";
 // import project10 from "../../assets/project10.jpg";
 import project11 from "../../assets/project5.jpg";
+import project12 from "../../assets/project13.jpg";
+import project13 from "../../assets/project14.jpg";
+import project14 from "../../assets/project15.jpg";
+import project15 from "../../assets/project16.jpg";
+import project16 from "../../assets/project17.jpg";
 import { Link } from "react-router-dom";
 const Projects = () => {
   return (
@@ -183,6 +189,102 @@ const Projects = () => {
             <div class="project-img-container">
               <a class="gallery-popup" href={project11}  aria-label="project-img">
                 <img class="img-fluid" src={project11}  alt="project-img"/>
+                <span class="gallery-icon"><i class="fa fa-plus"></i></span>
+              </a>
+              <div class="project-item-info">
+                <div class="project-item-info-content">
+                  <h3 class="project-item-title">
+                    <a  >TNT East Facility</a>
+                  </h3>
+                  <p class="project-cat">Government</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 p-2  shuffle-item" data-groups="[&quot;infrastructure&quot;,&quot;commercial&quot;]">
+            <div class="project-img-container">
+              <a class="gallery-popup" href={project10}  aria-label="project-img">
+                <img class="img-fluid" src={project10}  alt="project-img"/>
+                <span class="gallery-icon"><i class="fa fa-plus"></i></span>
+              </a>
+              <div class="project-item-info">
+                <div class="project-item-info-content">
+                  <h3 class="project-item-title">
+                    <a  >TNT East Facility</a>
+                  </h3>
+                  <p class="project-cat">Government</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 p-2  shuffle-item" data-groups="[&quot;infrastructure&quot;,&quot;commercial&quot;]">
+            <div class="project-img-container">
+              <a class="gallery-popup" href={project12}  aria-label="project-img">
+                <img class="img-fluid" src={project12}  alt="project-img"/>
+                <span class="gallery-icon"><i class="fa fa-plus"></i></span>
+              </a>
+              <div class="project-item-info">
+                <div class="project-item-info-content">
+                  <h3 class="project-item-title">
+                    <a  >TNT East Facility</a>
+                  </h3>
+                  <p class="project-cat">Government</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 p-2  shuffle-item" data-groups="[&quot;infrastructure&quot;,&quot;commercial&quot;]">
+            <div class="project-img-container">
+              <a class="gallery-popup" href={project13}  aria-label="project-img">
+                <img class="img-fluid" src={project13}  alt="project-img"/>
+                <span class="gallery-icon"><i class="fa fa-plus"></i></span>
+              </a>
+              <div class="project-item-info">
+                <div class="project-item-info-content">
+                  <h3 class="project-item-title">
+                    <a  >TNT East Facility</a>
+                  </h3>
+                  <p class="project-cat">Government</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 p-2  shuffle-item" data-groups="[&quot;infrastructure&quot;,&quot;commercial&quot;]">
+            <div class="project-img-container">
+              <a class="gallery-popup" href={project14}  aria-label="project-img">
+                <img class="img-fluid" src={project14}  alt="project-img"/>
+                <span class="gallery-icon"><i class="fa fa-plus"></i></span>
+              </a>
+              <div class="project-item-info">
+                <div class="project-item-info-content">
+                  <h3 class="project-item-title">
+                    <a  >TNT East Facility</a>
+                  </h3>
+                  <p class="project-cat">Government</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 p-2  shuffle-item" data-groups="[&quot;infrastructure&quot;,&quot;commercial&quot;]">
+            <div class="project-img-container">
+              <a class="gallery-popup" href={project15}  aria-label="project-img">
+                <img class="img-fluid" src={project15}  alt="project-img"/>
+                <span class="gallery-icon"><i class="fa fa-plus"></i></span>
+              </a>
+              <div class="project-item-info">
+                <div class="project-item-info-content">
+                  <h3 class="project-item-title">
+                    <a  >TNT East Facility</a>
+                  </h3>
+                  <p class="project-cat">Government</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 p-2  shuffle-item" data-groups="[&quot;infrastructure&quot;,&quot;commercial&quot;]">
+            <div class="project-img-container">
+              <a class="gallery-popup" href={project16}  aria-label="project-img">
+                <img class="img-fluid" src={project16}  alt="project-img"/>
                 <span class="gallery-icon"><i class="fa fa-plus"></i></span>
               </a>
               <div class="project-item-info">
