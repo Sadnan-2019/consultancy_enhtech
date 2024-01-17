@@ -80,7 +80,7 @@ const AboutHeader = () => {
 
       <Business></Business>
 
-      <section id="ts-team" class="ts-team">
+      {/* <section id="ts-team" class="ts-team">
         <div class="container">
           <div class="row text-center">
             <div class="col-lg-12">
@@ -327,7 +327,7 @@ const AboutHeader = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 };

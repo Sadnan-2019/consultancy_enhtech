@@ -40,7 +40,7 @@ const Projects = () => {
 
         
 
-          <div class="col-lg-4 col-md-6 p-2  shuffle-item" data-groups="[&quot;healthcare&quot;]">
+          {/* <div class="col-lg-4 col-md-6 p-2  shuffle-item" data-groups="[&quot;healthcare&quot;]">
             <div class="project-img-container">
               <a class="gallery-popup" href={project2}  aria-label="project-img">
                 <img class="img-fluid" src={project2} alt="project-img"/>
@@ -55,9 +55,9 @@ const Projects = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
 
-          <div class="col-lg-4 col-md-6 p-2  shuffle-item" data-groups="[&quot;infrastructure&quot;,&quot;commercial&quot;]">
+          {/* <div class="col-lg-4 col-md-6 p-2  shuffle-item" data-groups="[&quot;infrastructure&quot;,&quot;commercial&quot;]">
             <div class="project-img-container">
               <a class="gallery-popup" href={project3}  aria-label="project-img">
                 <img class="img-fluid" src={project3}  alt="project-img"/>
@@ -72,8 +72,8 @@ const Projects = () => {
                 </div>
               </div>
             </div>
-          </div>
-          <div class="col-lg-4 col-md-6 p-2  shuffle-item" data-groups="[&quot;infrastructure&quot;,&quot;commercial&quot;]">
+          </div> */}
+          {/* <div class="col-lg-4 col-md-6 p-2  shuffle-item" data-groups="[&quot;infrastructure&quot;,&quot;commercial&quot;]">
             <div class="project-img-container">
               <a class="gallery-popup" href={project4}  aria-label="project-img">
                 <img class="img-fluid" src={project4}  alt="project-img"/>
@@ -88,7 +88,7 @@ const Projects = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
           <div class="col-lg-4 col-md-6 p-2  shuffle-item" data-groups="[&quot;infrastructure&quot;,&quot;commercial&quot;]">
             <div class="project-img-container">
               <a class="gallery-popup" href={project5}  aria-label="project-img">

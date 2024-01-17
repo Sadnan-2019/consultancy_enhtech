@@ -25,7 +25,7 @@ const Business = () => {
               </div>
               <div class="ts-facts-content">
                 {/* <h2 class="ts-facts-num"><span class="counterUp" data-count="1789">0</span></h2> */}
-                <h3 class="ts-facts-title p-3">WE HAVE 100'S OF SATISFIED CUSTOMERS</h3>
+                <h3 class="ts-facts-title p-3">WE HAVE 1000'S OF SATISFIED CUSTOMERS</h3>
                 <p>Who have purchased property through us. These customers continue to buy property through us.</p>
               </div>
           </div> 
