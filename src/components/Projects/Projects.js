@@ -1,18 +1,16 @@
 import React from "react";
 // import expert1 from "../../../images/expert/expert-1.jpg";
 import project1 from "../../assets/project8.jpg";
-import project2 from "../../assets/project6.jpg";
-import project3 from "../../assets/project2.jpg";
-import project4 from "../../assets/project4.jpg";
-import project5 from "../../assets/project7.jpg";
-import project6 from "../../assets/project1.jpg";
+ 
+import project5 from "../../assets/project1.jpg";
+import project6 from "../../assets/project7.jpg";
 import project7 from "../../assets/project9.jpg";
 import project8 from "../../assets/project3.jpg";
 import project9 from "../../assets/project11.jpg";
 import project10 from "../../assets/project12.jpg";
 // import project10 from "../../assets/project10.jpg";
-import project11 from "../../assets/project5.jpg";
-import project12 from "../../assets/project13.jpg";
+import project11 from "../../assets/project13.jpg";
+import project12 from "../../assets/project5.jpg";
 import project13 from "../../assets/project14.jpg";
 import project14 from "../../assets/project15.jpg";
 import project15 from "../../assets/project16.jpg";
