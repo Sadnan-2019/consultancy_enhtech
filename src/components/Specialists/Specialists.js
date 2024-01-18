@@ -1,6 +1,6 @@
 import React from "react";
 import "./Specialists.css";
-import landing from "../../assets/landlord.png";
+// import landing from "../../assets/landlord.png";
 const Specialists = () => {
   return (
     <section id="ts-service-area" class="ts-service-area pb-0">

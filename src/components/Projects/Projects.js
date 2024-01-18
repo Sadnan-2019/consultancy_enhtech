@@ -11,7 +11,7 @@ import project10 from "../../assets/project12.jpg";
 // import project10 from "../../assets/project10.jpg";
 import project11 from "../../assets/project13.jpg";
 import project12 from "../../assets/project5.jpg";
-import project13 from "../../assets/project14.jpg";
+import project13 from "../../assets/JLT.jpeg";
 import project14 from "../../assets/project15.jpg";
 import project15 from "../../assets/project16.jpg";
 import project16 from "../../assets/project17.jpg";

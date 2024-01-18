@@ -1,18 +1,16 @@
 import React from 'react';
 import project1 from "../../assets/project8.jpg";
-import project2 from "../../assets/project6.jpg";
-import project3 from "../../assets/project2.jpg";
-import project4 from "../../assets/project4.jpg";
-import project5 from "../../assets/project7.jpg";
-import project6 from "../../assets/project1.jpg";
+ 
+import project5 from "../../assets/project1.jpg";
+import project6 from "../../assets/project7.jpg";
 import project7 from "../../assets/project9.jpg";
 import project8 from "../../assets/project3.jpg";
 import project9 from "../../assets/project11.jpg";
 import project10 from "../../assets/project12.jpg";
 // import project10 from "../../assets/project10.jpg";
-import project11 from "../../assets/project5.jpg";
-import project12 from "../../assets/project13.jpg";
-import project13 from "../../assets/project14.jpg";
+import project11 from "../../assets/project13.jpg";
+import project12 from "../../assets/project5.jpg";
+import project13 from "../../assets/JLT.jpeg";
 import project14 from "../../assets/project15.jpg";
 import project15 from "../../assets/project16.jpg";
 import project16 from "../../assets/project17.jpg";
@@ -57,7 +55,7 @@ const ProjectHeader = () => {
 
         
 
-          <div class="col-lg-4 col-md-6 p-2  shuffle-item" data-groups="[&quot;healthcare&quot;]">
+          {/* <div class="col-lg-4 col-md-6 p-2  shuffle-item" data-groups="[&quot;healthcare&quot;]">
             <div class="project-img-container">
               <a class="gallery-popup" href={project2}  aria-label="project-img">
                 <img class="img-fluid" src={project2} alt="project-img"/>
@@ -72,9 +70,9 @@ const ProjectHeader = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
 
-          <div class="col-lg-4 col-md-6 p-2  shuffle-item" data-groups="[&quot;infrastructure&quot;,&quot;commercial&quot;]">
+          {/* <div class="col-lg-4 col-md-6 p-2  shuffle-item" data-groups="[&quot;infrastructure&quot;,&quot;commercial&quot;]">
             <div class="project-img-container">
               <a class="gallery-popup" href={project3}  aria-label="project-img">
                 <img class="img-fluid" src={project3}  alt="project-img"/>
@@ -89,8 +87,8 @@ const ProjectHeader = () => {
                 </div>
               </div>
             </div>
-          </div>
-          <div class="col-lg-4 col-md-6 p-2  shuffle-item" data-groups="[&quot;infrastructure&quot;,&quot;commercial&quot;]">
+          </div> */}
+          {/* <div class="col-lg-4 col-md-6 p-2  shuffle-item" data-groups="[&quot;infrastructure&quot;,&quot;commercial&quot;]">
             <div class="project-img-container">
               <a class="gallery-popup" href={project4}  aria-label="project-img">
                 <img class="img-fluid" src={project4}  alt="project-img"/>
@@ -105,7 +103,7 @@ const ProjectHeader = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
           <div class="col-lg-4 col-md-6 p-2  shuffle-item" data-groups="[&quot;infrastructure&quot;,&quot;commercial&quot;]">
             <div class="project-img-container">
               <a class="gallery-popup" href={project5}  aria-label="project-img">
